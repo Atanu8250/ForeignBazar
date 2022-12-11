@@ -1,11 +1,13 @@
 // import './App.css'
-import CardItem from './Components/CardItem'
+import SimpleCard from './Components/CardItem'
+import Footer from './Components/Footer'
 
 function App() {
 
   return (
     <div className="App">
-      <CardItem/>
+      <SimpleCard/>
+      <Footer/>
     </div>
   )
 }

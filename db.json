@@ -1,0 +1,717 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CozyChic® Socks",
+      "description": "Made from Barefoot Dreams' plush CozyChic knit for ultimate warmth and softness, these socks will become fast down-time favorites.",
+      "brand": "Barefoot Dreams ®",
+      "type": "socks",
+      "gender": "common",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/f513ab38-993f-4d9e-912e-efdd6cb60848.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/c145f5f0-8269-4660-8b64-8a6d62028599.jpeg"
+      ],
+      "strikeOfPrice": 2000,
+      "price": 1289.95,
+      "ratings": {
+        "rating": 4,
+        "count": 295
+      }
+    },
+    {
+      "id": 2,
+      "name": "Moonflower Nights",
+      "description": "Moonflower Ornament Pure Silk Skinny Scrunchie Set",
+      "brand": "SLIP",
+      "type": "ornament",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/44cb989f-104d-4e4c-bb19-a3a3ca759596.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/6fa736c3-f1d7-4598-b8d3-c60c97c0c498.jpeg"
+      ],
+      "strikeOfPrice": 2199,
+      "price": 2149.92,
+      "ratings": {
+        "rating": 5,
+        "count": 164
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ribbed Crew Socks",
+      "description": "Soft, stretchy ribbed socks have a cozy slouchy fit through the ankles and reinforced heels and toes for durability.",
+      "brand": "UGG ®",
+      "type": "socks",
+      "gender": "common",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/3b6c8ee3-5552-4a00-9043-a8f6af67f17e.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/60fdbf5c-0866-4e11-87c2-8827f97dab47.jpeg"
+      ],
+      "strikeOfPrice": 1799,
+      "price": 1581.8,
+      "ratings": {
+        "rating": 4,
+        "count": 304
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sugar Lip Balm Set USD $38/CAD $51 Value",
+      "description": "What it is: Treat your lips to this limited-edition three-piece set of to-go essentials that will deliver all-day moisture and color.",
+      "brand": "FRESH®",
+      "type": "ornament",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/48198d4d-f990-4a03-92ec-b34b4326dc1b.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/88da5d0e-b351-4bb2-a7b2-53e576826527.jpeg"
+      ],
+      "strikeOfPrice": 2199,
+      "price": 2149.92,
+      "ratings": {
+        "rating": 5,
+        "count": 1
+      }
+    },
+    {
+      "id": 5,
+      "name": "GinZing Radiance-Boosting Ornament Set USD $35 Value",
+      "description": "What it is: A limited-edition, glow-boosting duo complete with a best-selling vitamin C serum and eye cream that will keep you looking merry and bright.",
+      "brand": "ORIGINS",
+      "type": "ornament",
+      "gender": "common",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/b5e7d73c-a8ae-4bdb-a248-41939383d33a.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/bb3380c2-98f0-4beb-a9b7-3dce9e8f3857.jpeg"
+      ],
+      "strikeOfPrice": 1891.93,
+      "price": 945.97,
+      "ratings": {
+        "rating": 4,
+        "count": 108
+      }
+    },
+    {
+      "id": 6,
+      "name": "Kiss Me with Kiehl's Set USD $30 Value",
+      "description": "What it is: A boxed set that includes three full-sized lip balms in Mint, Cranberry and Original Unscented.",
+      "brand": "KIEHL'S SINCE 1851",
+      "type": "health-care",
+      "gender": "common",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/12f17bca-647a-497b-995a-f84e955ff057.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/2099bd56-d878-4250-88f3-e28e477aa43d.jpeg"
+      ],
+      "strikeOfPrice": 2499,
+      "price": 2149.92,
+      "ratings": {
+        "rating": 4,
+        "count": 51
+      }
+    },
+    {
+      "id": 7,
+      "name": "Heart Bracelet",
+      "description": "Heart-shaped links in a double rainbow of colors forms a sweet bracelet that's ready for a jingly collection of clip-on charms.",
+      "brand": "CHARM IT!®",
+      "type": "Cosmetics",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/2bb344f4-32e8-4f9c-8b37-f09b6f154481.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/f65d8b51-5bc5-4670-b646-1e0182b96a6f.jpeg"
+      ],
+      "strikeOfPrice": 999,
+      "price": 678.98,
+      "ratings": {
+        "rating": 5,
+        "count": 22
+      }
+    },
+    {
+      "id": 8,
+      "name": "Men's Butter Crew Socks",
+      "description": "Soft, loopy bouclé brings ridiculous comfort to a pair of crew socks made with plenty of added stretch to move with you day and night.",
+      "brand": "NORDSTROM",
+      "type": "socks",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4357d81a-8327-45b5-b392-a96f14636a65.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/975f7278-7243-44be-8710-51fd5fddaeba.jpeg"
+      ],
+      "strikeOfPrice": 799,
+      "price": 773.97,
+      "ratings": {
+        "rating": 5,
+        "count": 6
+      }
+    },
+    {
+      "id": 9,
+      "name": "Joy, Peace & Love Cotton Blend Crew Socks",
+      "description": "Celebrate the holiday season in these cozy cotton-blend crew socks.",
+      "brand": "HOT SOX",
+      "type": "socks",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4357d81a-8327-45b5-b392-a96f14636a65.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/975f7278-7243-44be-8710-51fd5fddaeba.jpeg"
+      ],
+      "strikeOfPrice": 678.98,
+      "price": 412.79,
+      "ratings": {
+        "rating": 4,
+        "count": 33
+      }
+    },
+    {
+      "id": 10,
+      "name": "Mokara Classic Candle",
+      "description": "What it is: A candle presented in an embossed vessel with gorgeous floral designs that take inspiration from the beauty of Japanese art.",
+      "brand": "VOLUSPA",
+      "type": "candle",
+      "gender": "common",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/e5a446c8-33ec-4d50-b5aa-9a460af9a8fc.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/04c9bda8-dff5-472c-8500-f8187d2aab0c.jpeg"
+      ],
+      "strikeOfPrice": 2407.91,
+      "price": 1805.93,
+      "ratings": {
+        "rating": 5,
+        "count": 6
+      }
+    },
+    {
+      "id": 11,
+      "name": "Little Lipstick Trio",
+      "description": "What it is: A limited-edition set of three lipsticks in all-new Sparkling Wine and Rosé shades, in a box for gifting.",
+      "brand": "MAC COSMETICS",
+      "type": "Cosmetics",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/aab00891-0ef1-4a70-86d2-3278b37aa37f.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/8cf067b4-e9d2-41ca-832b-8951c5255026.jpeg"
+      ],
+      "strikeOfPrice": 2407.91,
+      "price": 1805.93,
+      "ratings": {
+        "rating": 5,
+        "count": 6
+      }
+    },
+    {
+      "id": 12,
+      "name": "Featherlight Cozy Socks",
+      "description": "Cozy up in the colder months with these supersoft and lightweight socks that will keep you warm without the extra bulk of chunky socks.",
+      "brand": "BP.",
+      "type": "socks",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6117ded6-3e82-42f6-8bd7-390addba82e6.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/80f98de9-92f3-48aa-b042-6e70b8c07304.jpeg"
+      ],
+      "strikeOfPrice": 1074.54,
+      "price": 632.72,
+      "ratings": {
+        "rating": 5,
+        "count": 10
+      }
+    },
+    {
+      "id": 13,
+      "name": "Suzane Smiley Crew Socks",
+      "description": "Add a whimsical accent to any ensemble with these cotton-blend crew socks featuring an positively beaming mascot.",
+      "brand": "RAINBOW UNICORN BIRTHDAY SURPRISE",
+      "type": "socks",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/97d89814-4851-4199-bc3f-c94cf87d017e.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/4c43faa0-a095-4592-91d2-6ad3cc80ae97.jpeg"
+      ],
+      "strikeOfPrice": 1574.54,
+      "price": 1318.72,
+      "ratings": {
+        "rating": 4,
+        "count": 13
+      }
+    },
+    {
+      "id": 14,
+      "name": "Cheers to You Lipglass Kit",
+      "description": "What it is: A three-piece set featuring a trio of products that will leave lips looking and feeling their plump best.",
+      "brand": "MAC COSMETICS",
+      "type": "Cosmetics",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6966a394-bed2-49a5-81af-868e8cbae2d3.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/1c0821c0-d7ab-4b2c-aa89-8db86e6de678.jpeg"
+      ],
+      "strikeOfPrice": 2294.25,
+      "price": 2240.98,
+      "ratings": {
+        "rating": 4,
+        "count": 1
+      }
+    },
+    {
+      "id": 15,
+      "name": "Blazer Mid '77 Premium Sneaker",
+      "description": "Old-school b-ball is alive and scoring in a '70s-reissue high-top sporting a streamlined profile and sleek autoclave sole that keep the vintage vibes hustling.",
+      "brand": "Nike",
+      "type": "shoe",
+      "gender": "Male",
+      "size": 8,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6966a394-bed2-49a5-81af-868e8cbae2d3.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/1c0821c0-d7ab-4b2c-aa89-8db86e6de678.jpeg"
+      ],
+      "strikeOfPrice": 10999.25,
+      "price": 9227.18,
+      "ratings": {
+        "rating": 5,
+        "count": 3
+      }
+    },
+    {
+      "name": "Cashmere Crewneck Sweater",
+      "description": "Knit from soft cashmere yarns, a lightweight, refined crewneck sweater is a luxe layering option when the temperature starts to drop.",
+      "brand": "NORDSTROM",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 7,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 14499.85,
+      "price": 12302,
+      "ratings": {
+        "rating": 4,
+        "count": 68
+      },
+      "id": 16
+    }
+  ],
+  "Male": [
+    {
+      "name": "Cashmere Crewneck Sweater",
+      "description": "Knit from soft cashmere yarns, a lightweight, refined crewneck sweater is a luxe layering option when the temperature starts to drop.",
+      "brand": "NORDSTROM",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 7,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 14499.85,
+      "price": 12302,
+      "ratings": {
+        "rating": 4,
+        "count": 68
+      },
+      "id": 1
+    },
+    {
+      "name": "Blazer Low '77 Sneaker",
+      "description": "Old-school b-ball is alive and scoring in a '70s-reissue low-top sporting a streamlined profile and sleek autoclaved sole that keep the vintage vibes hustling.",
+      "brand": "NIKE",
+      "type": "shoe",
+      "gender": "Male",
+      "size": 7,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/921a30f5-ca57-4ae7-bfeb-a40257678339.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/30770d90-e2af-48da-9208-4c97e6ee7cea.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 1498,
+      "price": 1245.46,
+      "ratings": {
+        "rating": 4,
+        "count": 56
+      },
+      "id": 2
+    },
+    {
+      "name": "327 Sneaker",
+      "description": "Heritage details meet modern attitudes in a '70s-throwback running shoe reissued as a standout street sneaker.",
+      "brand": "NEW BALANCE",
+      "type": "shoe",
+      "gender": "Male",
+      "size": 8,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/8ca923a6-2da3-42bf-8210-a0d7f9dbf772.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/e19951e2-9f56-4558-b7e3-1887effd451d.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 8786.91,
+      "price": 6589.96,
+      "ratings": {
+        "rating": 2,
+        "count": 15
+      },
+      "id": 3
+    },
+    {
+      "name": "Wood Sage & Sea Salt Cologne",
+      "description": "What it is: A mineral and woody cologne that helps you escape the everyday, along the windswept shore.",
+      "brand": "JO MALONE LONDON™",
+      "type": "cosmetics",
+      "gender": "Male",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/ada60d30-e5b2-4a25-92c5-d4c7fe67dc50.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/d70f8d4c-98b7-4252-8e4e-cc26f9344f67.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 13621.07,
+      "price": 7030.23,
+      "ratings": {
+        "rating": 5,
+        "count": 1600
+      },
+      "id": 4
+    },
+    {
+      "name": "Sportswear Tech Fleece Zip Hoodie",
+      "description": "Lightweight, insulating Tech Fleece brings warmth without bulk to a hoodie that sports a higher neck for added coverage and a fit that's easy to layer.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 10,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/00241b7f-bfa8-4f12-9c44-69240704efa4.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/341402aa-d622-4254-8157-f26a40f2862b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 1599,
+      "price": 11423,
+      "ratings": {
+        "rating": 4,
+        "count": 72
+      },
+      "id": 5
+    },
+    {
+      "name": "Kånken Water Resistant Backpack",
+      "description": "Scandinavian design has long been known for offering practical, functional pieces that are beautiful to behold but that are meant to be used.",
+      "brand": "FJÄLLRÄVEN",
+      "type": "bag",
+      "gender": "Male",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 8203,
+      "price": 7030.23,
+      "ratings": {
+        "rating": 4,
+        "count": 563
+      },
+      "id": 6
+    },
+    {
+      "name": "Second Skin 6-Inch Boxer Briefs",
+      "description": "Silky, stretchy and ridiculously comfortable, these everyday boxer briefs sport an internal Contour Pouch for support and an easy-access Quick Draw® Fly.",
+      "brand": "TOMMY JOHN",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 4,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/39462f95-46e0-4eb0-af21-99b509965baa.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/ee5b0f07-468f-4827-8a34-472cab92bced.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 3199,
+      "price": 3163.6,
+      "ratings": {
+        "rating": 2,
+        "count": 4
+      },
+      "id": 7
+    },
+    {
+      "name": "Tech Fleece Jogger Sweatpants",
+      "description": "Nike Tech Fleece spacer knit retains heat without added bulk in jogger-style sweatpants that are relaxed through the thigh and taper below the knee.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 9,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/37c55c1c-eef8-4807-85f5-45154c06a338.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/78454076-1b38-403d-a82f-819c4543ce40.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 10234,
+      "price": 9666.57,
+      "ratings": {
+        "rating": 3,
+        "count": 147
+      },
+      "id": 8
+    },
+    {
+      "name": "Hydrating Cleanser Duo (Nordstrom Exclusive) USD $42 Value",
+      "description": "What it is: A limited-edition set that includes a gentle, plant-powered cleanser and toner for normal to dry skin.",
+      "brand": "CLARINS",
+      "type": "cosmetics",
+      "gender": "Male",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/7ccb0614-ab41-468f-baf1-27fa03e13a61.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/82a3665e-5b51-437c-b5f8-5f37d6c7358b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 3024.34,
+      "price": 2724.21,
+      "ratings": {
+        "rating": 5,
+        "count": 168
+      },
+      "id": 9
+    },
+    {
+      "name": "Sportswear Club Hoodie",
+      "description": "Cotton-rich fleece keeps you comfy in a street-ready hoodie with a bold Swoosh logo on the chest.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 12,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/cd3ca7b6-3118-4a14-ac32-0154bb6f94db.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/58f2fbcc-c77d-456f-85f8-bea7e3b7a0c9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 4833.28,
+      "price": 4218.14,
+      "ratings": {
+        "rating": 4,
+        "count": 135
+      },
+      "id": 10
+    },
+    {
+      "name": "Men's Club Crewneck Sweatshirt",
+      "description": "This crewneck sweatshirt cut from lightweight fleece is one you'll want in every color.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 12,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/e609eb77-4e30-4f19-bc97-e4e560f553f9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/2e28ce8f-0dd4-4ffc-a418-ad43253ba8bb.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 2046.98,
+      "price": 1346.56,
+      "ratings": {
+        "rating": 4,
+        "count": 107
+      },
+      "id": 11
+    },
+    {
+      "name": "MacMillan Wool Blend 625 Fill Power Down Parka",
+      "description": "Quilted, down-filled construction offers reliable warmth in a modern hip-length Italian parka that fuses form and function.",
+      "brand": "CANADA GOOSE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 15,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4a93d4f1-d1f5-470b-99f0-835bdf5aaee1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/d1882c38-7c80-4902-b1fc-778df60f6eed.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 12564.65,
+      "price": 103256.56,
+      "ratings": {
+        "rating": 3,
+        "count": 1
+      },
+      "id": 12
+    },
+    {
+      "name": "Hidden Falls Leaf Pima Cotton Blend Polo",
+      "description": "Laid-back days require the cool comfort of this breathable pima cotton–blend polo that's perfect for chilling at home or heading out.",
+      "brand": "TRAVISMATHEW",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 10,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6a065c35-f400-46aa-9da5-752e9a06a85e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/451aa40d-6717-475a-8fe8-105914deb9a7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 8344.01,
+      "price": 5841.24,
+      "ratings": {
+        "rating": 5,
+        "count": 1
+      },
+      "id": 13
+    },
+    {
+      "name": "Nike Dri-FIT Victory Golf Polo",
+      "description": "Stretchy, sweat-wicking fabric keeps up from links to lunch in an all-activity golf polo that's seamed for greater range of movement through your swings.",
+      "brand": "NIKE GOLF",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 13,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/8ad00eb8-3195-4f33-a1d1-532edd233dcd.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/abcd046a-c17d-47a4-9698-1dec3bfa9237.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 5096.92,
+      "price": 3822.69,
+      "ratings": {
+        "rating": 5,
+        "count": 163
+      },
+      "id": 14
+    },
+    {
+      "name": "Reign Short Sleeve T-Shirt",
+      "description": "",
+      "brand": "RHONE",
+      "type": "Stretchy moisture-wicking fabric keeps up with you at any intensity in a T-shirt sporting 50+ sun protection and GoldFusion anti-odor technology.",
+      "gender": "Male",
+      "size": 9,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4cabae55-0fe0-45df-a93a-ae6a25dc2d42.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/fed0ad56-b79e-4b1f-a186-ba99796a1f77.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 5975.7,
+      "price": 2546.7,
+      "ratings": {
+        "rating": 4,
+        "count": 19
+      },
+      "id": 15
+    },
+    {
+      "name": "Classic Reversible Wool Blend Scarf",
+      "description": "Long fringe brings cozy charm to this handsome scarf with a reversible design that lets you change up your cold-weather look at will.",
+      "brand": "POLO RALPH LAUREN",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/c3bc71de-793f-41b7-9db5-b5450518c720.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/1e583c73-49f1-4308-bea7-ef1cca034410.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 8630.46,
+      "price": 5975.7,
+      "ratings": {
+        "rating": 5,
+        "count": 123
+      },
+      "id": 16
+    },
+    {
+      "name": "Ghost 15 Running Shoe",
+      "description": "The Ghost lineup remains a favorite of so many runners as each iteration of the shoe is light and cushioned enough for running almost any pace and distance.",
+      "brand": "BROOKS",
+      "type": "shoe",
+      "gender": "Male",
+      "size": 10,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/a99a6ab4-cd11-41dc-82f8-0312c864c335.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/f1d82219-5d6d-4874-84b0-e71bc35d0cb4.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 15352.24,
+      "price": 12302.91,
+      "ratings": {
+        "rating": 4,
+        "count": 129
+      },
+      "id": 17
+    },
+    {
+      "name": "Space Dye Marl Ankle Socks",
+      "description": "A combination of space-dyed yarns and marled details pattern these cotton-kissed ankle socks with signature honeycomb arch support.",
+      "brand": "BOMBAS",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 163,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/61fbd683-cb63-4d73-b33a-1ceb669a40be.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/54dfcfbc-5b30-4c30-8142-a5b25e44d908.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 1449.99,
+      "price": 1159.99,
+      "ratings": {
+        "rating": 4,
+        "count": 456
+      },
+      "id": 18
+    },
+    {
+      "name": "Essentals Cotton Blend Sweatshirt",
+      "description": "A logo graphic brings signature style to the chest and back of a roomy mock-neck sweatshirt cut from soft, brushed cotton-blend fleece.",
+      "brand": "FEAR OF GOD ESSENTIALS",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 13,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4aac5434-bff7-41c9-84af-edd26a6b4170.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/e8ed7aaa-bb8d-4186-929d-c30d220b8cdc.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 9546.8,
+      "price": 7469.62,
+      "ratings": {
+        "rating": 5,
+        "count": 753
+      },
+      "id": 19
+    },
+    {
+      "name": "Fisherman Cardigan",
+      "description": "Varied stitchwork defines a handsome cotton-blend cardigan just right for sitting by the fire and regaling friends with tales of adventure on the high seas.",
+      "brand": "LIVERPOOL LOS ANGELES",
+      "type": "cloth",
+      "gender": "Male",
+      "size": 12,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/2ca6f1cf-dc6a-4d3f-a5f7-ccf5cb6567fb.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/1672d7a7-5290-4d90-aa1a-5dc9e5dfec24.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 10457.47,
+      "price": 7843.1,
+      "ratings": {
+        "rating": 5,
+        "count": 869
+      },
+      "id": 20
+    }
+  ],
+  "users": [
+    {
+      "user-id": "heihta",
+      "name": "Atanu Karmakar",
+      "email": "atanu20uparsole@gmail.com",
+      "password": "123456",
+      "cart": [
+        {
+          "id": 1,
+          "name": "Stella McCartney",
+          "description": "Perforated Logo Mini Faux Leather Crossbody Bag",
+          "type": "shoe",
+          "gender": "Male",
+          "size": 6,
+          "brand": "Nike",
+          "quantity": 1,
+          "images": [
+            "https://n.nordstrommedia.com/id/sr3/28711c28-67f3-451c-8124-1dbb02e9adbc.jpeg",
+            "https://n.nordstrommedia.com/id/sr3/8bce6cdd-19dd-4900-81c2-6fa659574ad0.jpeg"
+          ],
+          "strikeOfPrice": 200,
+          "price": 175,
+          "ratings": 4
+        }
+      ]
+    }
+  ]
+}
