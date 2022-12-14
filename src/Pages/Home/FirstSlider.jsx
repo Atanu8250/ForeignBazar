@@ -3,12 +3,13 @@ import { Box } from '@chakra-ui/react'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import SliderCardOne from './SliderCardOne';
 import axios from 'axios';
+import SliderCardTwo from './SliderCardTwo';
 
-const FirstSlider = () => {
+const FirstSlider = ({serial}) => {
     const [data, setData] = React.useState([]);
 
     React.useEffect(()=>{
-        axios.get(`http://localhost:3000/products`)
+        axios.get(`${import.meta.env.VITE_BASE_URL}/${serial === 1 ? 'products' : 'Male'}`)
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
@@ -30,7 +31,7 @@ const FirstSlider = () => {
             <Box className='nxt-btn slider-btn' onClick={btnPressNext}><BsChevronRight /></Box>
             <Box className='First-Slider-Cards' ref={boxRef}>
                 
-                {data?.map(item=><SliderCardOne key={item.id} {...item} />)}
+                {data?.map(item=> serial === 1 ? <SliderCardOne key={item.id} {...item} /> : <SliderCardTwo key={item.id} {...item} />)}
             </Box>
         </Box>
     )

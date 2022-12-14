@@ -46,7 +46,7 @@
 .First-Slider-Cards{
     /* border: 1px solid green; */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px 18px;
     overflow: hidden;
     position: relative;
@@ -111,12 +111,97 @@
 }
 
 .Slider-Card-One>div:nth-child(5)>svg{
-    font-size: x-small;
+    font-size: large;
 }
 
 .Slider-Card-One>div:nth-child(5)>p{
     color: gray;
 }
+
+/* Slider Card One ended here */
+
+/* Slider Card Two start here */
+
+.Slider-Card-Two{
+    max-width: 220px;
+    min-width: 220px;
+    align-items: flex-start !important;
+    margin: 15px 12px;
+}
+
+.Slider-Card-Two>div:nth-child(1){
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.Slider-Card-Two>div:nth-child(1)>div{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(187, 187, 187);
+    color: rgb(85, 85, 85);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.638);
+}
+
+.Slider-Card-Two>div:nth-child(1):hover>div{
+    display: flex;
+}
+
+.Slider-Card-Two>div:nth-child(1)>div:hover{
+    border: 1px solid #1b1b1b;
+    color: #181818;
+    background-color: rgba(255, 255, 255, 0.881);
+}
+
+
+.Slider-Card-Two>p{
+    font-size: 15px;
+}
+
+.Slider-Card-Two>p:nth-child(2){
+    color: #d61f27;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Slider-Card-Two>p:nth-child(3){
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.Slider-Card-Two>p:nth-child(4){
+    font-weight: bold;
+    color: #d61f27;
+    font-size: 18px;
+}
+
+.Slider-Card-Two>p:nth-child(5){
+    font-weight: 400;
+    font-size: 17px;
+    color: #d61f27;
+}
+
+.Slider-Card-Two>s:nth-child(6){
+    color: gray;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.Slider-Card-Two>div:nth-child(7)>svg{
+    font-size: large;
+}
+
+.Slider-Card-Two>div:nth-child(7)>p{
+    color: rgb(107, 107, 107);
+    font-weight: lighter;
+}
+
 
 /* slider Ended */
 
@@ -124,6 +209,7 @@
 
 .Christmas-time{
     background-image: url("https://n.nordstrommedia.com/id/f39af8b9-0100-4585-887b-a6aae159d220.png");
+    background-size: 100% 100%;
     margin: 20px 0px;
     height: 200px;
     display: flex;
@@ -155,5 +241,32 @@
 }
 
 .Christmas-time>div>div>a:hover{
+    border-bottom: 1px solid gray;
+}
+
+
+/* Designer-Clearance */
+.Designer-Clearance{
+    background-image: url("https://n.nordstrommedia.com/id/725ce447-3e13-40ec-90ac-102b56804ea5.png");
+    background-size: 100% 100%;
+    margin: 20px 0px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center !important;
+    align-items: flex-end !important;
+    padding-bottom: 30px;
+}
+
+.Designer-Clearance>div{
+    width: fit-content;
+}
+
+.Designer-Clearance>div>a{
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+}
+
+.Designer-Clearance>div>a:hover{
     border-bottom: 1px solid gray;
 }
