@@ -49,6 +49,20 @@ const HoverAreaData = {
         ['Jewelry', 'Bracelets', 'Earnings', 'Necklaces', 'Rings', 'Watches', 'Fine Jewelry', 'Engagement & Wedding', 'Experience Fine Jewelry'],
 
         ['https://n.nordstrommedia.com/id/98107c78-9f0c-45c9-ad92-23e61b8b935b.jpg']
+    ],
+
+    'Men' : [
+        ['Men: Get Inspired', 'New Arrivals', 'Holiday Deals', 'Advanced Modern', 'Black-Owned & - Founded Brands', 'Bestsellers', "Men's Looks", 'New Concepts: Burberry', 'Nordstrom Made', 'Sneaker Release Calendar', 'Sports Fan' ],
+
+        ['Clothing', 'Activewear', 'Blazers & Sport Coats', 'Coats & Jackets', 'Dress Shirts', 'Jeans', 'Lounge, Pajamas & Robes', 'Pants', 'Polo Shirts', 'Shirts', 'Suits & Separates', 'Sweaters', 'Sweatshirts & Hoodies', 'Swimwear & Board Shorts', 'T-Shirts'],
+
+        ['Shoes', 'Boots', 'Comfort', 'Dress Shoes', 'Loafers & Slip-Ons', 'Oxfords & Derbys', 'Running Shoes', 'Sandals & Filp-Flops', 'Slippers', 'Sneakers & Athletic', 'Snow & Winter', 'Body Care & Deodorant', 'Cologne'],
+
+        ['Accessories', 'Backpacks', 'Bags', 'Belts', 'Dopp Kits & Toiletry Bags', 'Gloves', 'Hats', 'Scarves', 'Sunglasses & Eyewear', 'Tech', 'accesssories', 'Ties & Accessories', 'Ties & Pocket Squares', 'Wallets & Card Cases'],
+
+        ['Designer', 'Designer Clothing', 'Designer Shoes', 'Designer Accessories', 'AG', 'AllSaints', 'ASOS', 'BOSS', 'Canada Goose', 'Canali', 'Fear of God Essentials', 'PURPLE BRAND', 'TOPMAN'],
+
+        ["https://n.nordstrommedia.com/id/a38273ae-4212-4441-937b-1ba71a7aea2e.jpg"]
     ]
 }
 
@@ -126,7 +140,7 @@ const Navbar = () => {
 
                     <Box>
                         <Link href='#'> Men </Link>
-                        <HoverPart data={HoverAreaData['Holiday Gifts']} />
+                        <HoverPart data={HoverAreaData['Men']} />
                     </Box>
 
                     <Box>

@@ -1,4 +1,24 @@
 
+
+.email_update{
+    justify-content: flex-end;
+}
+
+.email_update>div{
+    height: 80px;
+    width: 500px;
+}
+
+.email_update>div>input{
+    padding: 8px;
+}
+
+.email_update>div>button{
+    background-color: black !important;
+    color: white !important;
+    padding: 10px 30px;
+}
+
 .stack>p{
     font-size: 17px;
 }
