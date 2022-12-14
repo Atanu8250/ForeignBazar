@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    padding: 0 !important;
+}
+
+.upperNav {
+    margin: 0 !important;
+    padding: 15px 0px;
+    background-color: #e30e0e;
+    color: #fff;
+}
+
+.upperNav a {
+    text-decoration: underline;
+}
+
+.lowerNav {
+    width: 100%;
+    max-width: 100vw;
+    margin-inline: auto;
+    padding: 20px 0px !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerNav>a {
+    width: 280px;
+}
+
+.lowerNav>div:nth-child(2) {
+    border: 1px solid gray;
+    height: 45px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.lowerNav>div:nth-child(2)>input {
+    font-size: 18px;
+    width: 40vw;
+}
+
+/* Nav right options */
+
+.lowerNav>div:nth-child(3) {
+    gap: 20px;
+}
+
+.lowerNav>div:nth-child(3)>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowerNav>div:nth-child(3)>a:first-child>svg {
+    height: 24px;
+    width: 24px;
+}
+
+.lowerNav>div:nth-child(3)>a:last-child {
+    position: relative;
+}
+
+.lowerNav>div:nth-child(3)>a:last-child>svg {
+    height: 24px;
+    width: 24px;
+}
+
+.lowerNav>div:nth-child(3)>a:last-child>span {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    font-size: 14px;
+}
+
+/* Hover part of the navbar */
+
+.Navbar-Hover {
+    position: relative;
+    padding: 20px 20px;
+}
+
+.Navbar-Hover>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* Holiday Gifts */
+.Navbar-Hover>div:first-child>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Gift svg */
+.Navbar-Hover>div:first-child>a>svg {
+    font-size: 16px;
+}
+
+
+.Navbar-Hover>div>a {
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Navbar-Hover>div>div>div>div>div:nth-child(1) {
+    font-weight: bold;
+}
+
+.Navbar-Hover>div>div>div>div>div>a:nth-child(1) {
+    font-weight: bold;
+}
+
+
+/* Normally all hover divs are display none */
+.Navbar-Hover>div>div {
+    display: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 0;
+}
+
+
+/* After hovering on the Headings hover divs are displayed*/
+.Navbar-Hover>div:hover>div {
+    display: block;
+}
+
+
+
+
+
+/* medium screen */
+@media all and (max-width: 768px) {
+
+    .lowerNav>a {
+        width: 150px;
+    }
+
+    .lowerNav>div:nth-child(2)>input {
+        width: 30vw;
+    }
+
+    .lowerNav>div:nth-child(3) {
+        gap: 5px;
+    }
+
+    .Navbar-Hover>div>a {
+        font-size: 14px;
+    }
+}
+
+/* Small Screen */
+@media all and (max-width: 320px) {
+    .lowerNav>a {
+        width: 170px;
+    }
+
+    .lowerNav>div:nth-child(2) {
+        display: none;
+    }
+
+    .lowerNav>div:nth-child(3)>a>span {
+        display: none;
+    }
+
+    .lowerNav>div:nth-child(3)>a:last-child>span {
+        display: block;
+    }
+
+    .Navbar-Hover>div>a {
+        font-size: 8px;
+    }
+
+    .Navbar-Hover>div:first-child>a>svg {
+        font-size: 8px;
+    }
+}

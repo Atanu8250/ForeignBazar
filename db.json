@@ -687,6 +687,407 @@
       "id": 20
     }
   ],
+  "Female": [
+    {
+      "name": "Performance Joggers",
+      "description": "Give your work-from-home uniform a cozy upgrade with these soft, relaxed joggers that are also stylish enough for errands",
+      "brand": "VUORI",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/e52b3d19-7611-4b25-9342-f46ce7a75975.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/4429bf87-78b1-4655-852b-e3dee70cc62e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 9999,
+      "price": 8260,
+      "ratings": {
+        "rating": 4,
+        "count": 522
+      },
+      "id": 1
+    },
+    {
+      "name": "Live In High Waist Leggings",
+      "description": "Built from moisture-wicking fabric and fitted with a no-slip waistband, these stretchy, figure-sculpting leggings keep you cool as your workout warms up.",
+      "brand": "ZELLA",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/532f599c-3846-476d-a41f-7863625b22fa.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/11b782e0-99dc-45a2-9b6a-5ce7af60addc.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 6543,
+      "price": 5184,
+      "ratings": {
+        "rating": 4.3,
+        "count": 7300
+      },
+      "id": 2
+    },
+    {
+      "name": "Halo 2.0 Performance Zip Front Hoodie",
+      "description": "Made from moisture-wicking, four-way stretch fabric, this soft jersey hoodie is the perfect companion for gym days, sick days and everything between.",
+      "brand": "VUORI",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/568c2dcc-62d2-4c40-ae33-a968c4ebf2e0.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/5f8bf641-43dc-4114-bdc6-495e1ac3476f.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 9000,
+      "price": 8612.43,
+      "ratings": {
+        "rating": 4,
+        "count": 5
+      },
+      "id": 3
+    },
+    {
+      "name": "Knit Midi Skirt",
+      "description": "Update your midi skirt for sweater weather with this cozy ribbed version that hugs your curves and keeps you warm.",
+      "brand": "OPEN EDIT",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 4,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/83ac6f55-840f-4d56-84b7-34313406478b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/c601cd37-5342-4a18-8ea4-10fa0971fcce.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 5299,
+      "price": 4833,
+      "ratings": {
+        "rating": 4.6,
+        "count": 17
+      },
+      "id": 4
+    },
+    {
+      "name": "Ab-Solution High Waist Itty Bitty Bootcut Jean",
+      "description": "Strategic fading adds to the relaxed feel of stretch-denim jeans featuring a slightly flared leg and a fit system that's designed to comfortably shape and hold.",
+      "brand": "WIT & WISDOM",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 4,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/51a8e341-56a4-4e85-9729-6cef2cdfe4e7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/f6d27119-baca-4d91-973c-eca527adb6c3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 7599,
+      "price": 7733.45,
+      "ratings": {
+        "rating": 4,
+        "count": 244
+      },
+      "id": 5
+    },
+    {
+      "name": "Good Legs High Rise Skinny Jeans",
+      "description": "With exclusive mold-and-hold technology and a touch of stretch, these jeans really and truly are cute as well as comfortable.",
+      "brand": "GOOD AMERICAN",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/ae2fa614-3bab-4b08-9a55-3abd9d4e01af.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/bb7cbf00-4176-4206-8dfd-4873cb19c7ec.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 8999,
+      "price": 8502.19,
+      "ratings": {
+        "rating": 4,
+        "count": 305
+      },
+      "id": 6
+    },
+    {
+      "name": "'Ab'Solution Skinny Ankle Jeans",
+      "description": "With exclusive mold-and-hold technology and a touch of stretch, these jeans really and truly are cute as well as comfortable.",
+      "brand": "WIT & WISDOM",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6535c596-3d41-4531-a73e-5d61dff37d79.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/76ea74d0-e547-4590-9441-62f33cae45d8.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 6707.56,
+      "price": 5847.79,
+      "ratings": {
+        "rating": 4,
+        "count": 587
+      },
+      "id": 7
+    },
+    {
+      "name": "Puddle Low Rise Cargo Jeans",
+      "description": "Work the utility trend in these wide-leg cargo jeans cut from nonstretch denim",
+      "brand": "BDG URBAN OUTFITTERS",
+      "type": "cloth",
+      "gender": "Female",
+      "size": 7,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/c0d170c0-c6fb-4829-bc57-75463869f52e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "https://n.nordstrommedia.com/id/sr3/7fa35ac9-e534-419d-a62a-c0d874b41ad1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+      ],
+      "strikeOfPrice": 6767,
+      "price": 3638.54,
+      "ratings": {
+        "rating": 5,
+        "count": 1
+      },
+      "id": 8
+    },
+    {
+      "name": "Kånken Water Resistant Backpack",
+      "description": "Scandinavian design has long been known for offering practical, functional pieces that are beautiful to behold but that are meant to be used.",
+      "brand": "FJÄLLRÄVEN",
+      "type": "bag",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 7499,
+      "price": 7030.32,
+      "ratings": {
+        "rating": 4.5,
+        "count": 504
+      },
+      "id": 9
+    },
+    {
+      "name": "Mini Kånken Water Resistant Backpack",
+      "description": "Scandinavian design has long been known for offering practical, functional pieces that are beautiful to behold but are meant to be used.",
+      "brand": "FJÄLLRÄVEN",
+      "type": "bag",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/5fce4f3a-100f-4c3d-8505-0d2da03c2382.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/8e9381be-3b61-4b6e-b9f7-e524c3f31ee5.jpeg?crop=pad&w=780&h=838"
+      ],
+      "strikeOfPrice": 6300,
+      "price": 6019.78,
+      "ratings": {
+        "rating": 4.5,
+        "count": 390
+      },
+      "id": 10
+    },
+    {
+      "name": "Puffer Backpack",
+      "description": "Twin with your favorite puffy topper with this well-organized, spacious backpack made from recycled materials that'll keep your gear as toasty warm as you.",
+      "brand": "ADIDAS ORIGINALS",
+      "type": "bag",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/ca688bf6-0290-4202-b65f-89ead35735a4.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/2ad209e1-ea3e-4ee7-834d-408f8dfede3b.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 3999.5,
+      "price": 3624,
+      "ratings": {
+        "rating": 5,
+        "count": 7
+      },
+      "id": 11
+    },
+    {
+      "name": "Stark Crossbody Coated Canvas Mini Backpack",
+      "description": "MCM's signature Stark silhouette gets a modern upgrade as a mini crossbody backpack with a removable, adjustable strap.",
+      "brand": "MCM",
+      "type": "bag",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/8ef8b2fa-a6fb-4ebe-b712-e9dd2b82ede7.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/79d43994-337c-4661-ad92-ebf69748b0f1.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 90000,
+      "price": 85136,
+      "ratings": {
+        "rating": 4,
+        "count": 122
+      },
+      "id": 12
+    },
+    {
+      "name": "Luka Belt Bag",
+      "description": "Durable tech construction defines a no-nonsense belt bag with utilitarian appeal.",
+      "brand": "CALPAK",
+      "type": "bag",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/8c49c078-67ed-484b-83d1-151c708a27aa.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/ab84c9d0-a9d8-4fc5-b8a8-221b14bfd1a8.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 5287.25,
+      "price": 4987.32,
+      "ratings": {
+        "rating": 4.6,
+        "count": 7
+      },
+      "id": 13
+    },
+    {
+      "name": "Milan Leather Belt Bag",
+      "description": "Toss this belt bag on before you leave the house so you can keep you hands free and your essentials secure while you're out and about.",
+      "brand": "AIMEE KESTENBERG",
+      "type": "bag",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/40adcecd-a438-43e7-8535-e12e90d39d32.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/e44c39a5-d80d-4b2b-bb76-a2525ffa3efa.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 1367.34,
+      "price": 11007.69,
+      "ratings": {
+        "rating": 4,
+        "count": 167
+      },
+      "id": 14
+    },
+    {
+      "name": "Ace Water Resistant Neoprene Belt Bag",
+      "description": "Capacity, comfort and convenience combine in this water-resistant bag that's ready to get you through a full day of touring without a hint of carry fatigue.",
+      "brand": "DAGNE DOVER",
+      "type": "bag",
+      "gender": "Female",
+      "size": 6,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/6c0e3388-ca97-4214-bfde-e5a1a2993160.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/fea2af04-ca22-4948-a004-3ae1c3f25b71.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 8365.54,
+      "price": 7909.34,
+      "ratings": {
+        "rating": 4,
+        "count": 345
+      },
+      "id": 15
+    },
+    {
+      "name": "Ultralight Stuff Sack Packable Belt Bag",
+      "description": "Built from lightweight ripstop, this belt bag is outfitted with plenty of adventure-ready features and packs down into its own pocket when you're back home",
+      "brand": "OSPREY",
+      "type": "bag",
+      "gender": "Female",
+      "size": 7,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/8182c3a4-7f3a-4097-959b-0a923e2a2d24.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/4711c78e-344b-4a48-b416-d551c7828e19.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 4300,
+      "price": 2107.65,
+      "ratings": {
+        "rating": 5,
+        "count": 10
+      },
+      "id": 16
+    },
+    {
+      "name": "Lou Matelassé Leather Camera Bag",
+      "description": "A calfskin crossbody inspired by vintage camera bags goes for maximum impact with matelassé chevrons, logo-monogram hardware and a bold tassel at one side.",
+      "brand": "SAINT LAURENT",
+      "type": "bag",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/ff386bbc-d1b6-40ab-8e11-20483f6e1c53.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/b87f6880-ebff-469a-a04a-fc302b03d5ff.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 215453.65,
+      "price": 148512.45,
+      "ratings": {
+        "rating": 4,
+        "count": 143
+      },
+      "id": 17
+    },
+    {
+      "name": "Laguna Waterproof Lug Sole Chelsea Boot",
+      "description": "A heavily lugged sole lends a utilitarian update to a classic Chelsea boot with stretchy gore insets at each side.",
+      "brand": "SAM EDELMAN",
+      "type": "shoes",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4c0a8885-8137-40f2-b810-1b6fc529f1ae.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/008e60c1-ba5e-401c-8548-55dd2e5e1e26.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 14535,
+      "price": 8771.13,
+      "ratings": {
+        "rating": 4.5,
+        "count": 500
+      },
+      "id": 18
+    },
+    {
+      "name": "UGG Classic Mini II Genuine Shearling Lined Boot",
+      "description": "Pretreated to protect against moisture and staining, this timeless UGG boot is a supremely cozy cold-weather favorite.",
+      "brand": "UGG®",
+      "type": "shoes",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/f3333929-b6b6-4998-a734-e616bdd8d97d.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/e9708532-faee-446c-8292-f70d7ae71a73.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 2499.99,
+      "price": 13116.32,
+      "ratings": {
+        "rating": 3,
+        "count": 150
+      },
+      "id": 19
+    },
+    {
+      "name": "Chuck Taylor® All Star® High Top Platform Sneake",
+      "description": "An iconic silhouette gets a boost in this high-top sneaker that has everything you love about the classic but with a double-stacked sole.",
+      "brand": "CONVERSE",
+      "type": "shoes",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/025167c0-eb67-49af-ab34-f1a131481e1a.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/0d6f4b2e-d75f-4802-bc8b-5a36c53f1778.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 7390,
+      "price": 6590.12,
+      "ratings": {
+        "rating": 4,
+        "count": 32
+      },
+      "id": 20
+    },
+    {
+      "name": "Leopold Chelsea Boot",
+      "description": "A lug sole updates a timeless Chelsea boot that will take you from the office to happy hour with casual-cool style.",
+      "brand": "STEVE MADDEN",
+      "type": "shoes",
+      "gender": "Female",
+      "size": 5,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/619618b3-ea51-4ebe-9539-5f28777ceca6.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/3a481399-efdc-4111-bc39-f06fbb305934.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+      ],
+      "strikeOfPrice": 12134.21,
+      "price": 10200,
+      "ratings": {
+        "rating": 4,
+        "count": 45
+      },
+      "id": 21
+    }
+  ],
   "users": [
     {
       "user-id": "heihta",

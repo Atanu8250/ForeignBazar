@@ -1,12 +1,16 @@
-// import './App.css'
-import SimpleCard from './Components/CardItem'
-import Footer from './Components/Footer'
+import './App.css'
+import AllRoutes from './Components/AllRoutes'
+import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
+// import SignIn from './Pages/SignIn/SignIn'
+// import AddData from './Components/AddData'
 
 function App() {
 
   return (
     <div className="App">
-      <SimpleCard/>
+      <Navbar/>
+      <AllRoutes/>
       <Footer/>
     </div>
   )

@@ -14,7 +14,7 @@ import {
 
 import { useRef } from 'react';
 
-export default function SimpleCard() {
+export default function AddData() {
 
     const NameRef = useRef()
     const DescriptionRef = useRef()

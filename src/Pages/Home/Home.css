@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Home{
+    padding: 0px 20px;
+}
+
+.Bonus-note{
+    background-image: url("https://n.nordstrommedia.com/id/4f94f22c-fcbf-4b4d-967a-67a0a1bce95c.jpeg");
+    margin: 20px 0px;
+    height: 200px;
+    display: flex;
+}
+
+.Bonus-note>div{
+    width: fit-content;
+    align-items: flex-start;
+}
+
+.Bonus-note>div>h1{
+    font-size: 15px;
+}
+
+.Bonus-note>div>p{
+    font-weight: lighter;
+}
+
+.Bonus-note>div>a{
+    text-decoration: underline;
+}
+
+
+/* First Slider */
+.First-Slider{
+    margin: 40px 0px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+}
+
+
+.First-Slider-Cards{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.slider-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.slider-btn:hover{
+    background-color: gray;
+    color: white;
+}
+
+.pre-btn{
+    left: 0;
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+/* Card */
+.Slider-Card-One{
+    max-width: 220px;
+    min-width: 220px;
+    align-items: flex-start !important;
+    margin: 15px 12px;
+}
+
+.Slider-Card-One>img{
+    width: 100%;
+}
+
+.Slider-Card-One>p{
+    font-size: 15px;
+}
+
+.Slider-Card-One>p:nth-child(2){
+    color: #27aa66;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Slider-Card-One>p:nth-child(3){
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.Slider-Card-One>p:nth-child(4){
+    font-weight: bold;
+}
+
+.Slider-Card-One>div:nth-child(5)>svg{
+    font-size: x-small;
+}
+
+.Slider-Card-One>div:nth-child(5)>p{
+    color: gray;
+}
+
+/* slider Ended */
+
+
+
+.Christmas-time{
+    background-image: url("https://n.nordstrommedia.com/id/f39af8b9-0100-4585-887b-a6aae159d220.png");
+    margin: 20px 0px;
+    height: 200px;
+    display: flex;
+    color: white;
+}
+
+.Christmas-time>div{
+    width: fit-content;
+    align-items: flex-start;
+}
+
+.Christmas-time>div>h1{
+    font-size: 15px;
+}
+
+.Christmas-time>div>p{
+    font-weight: lighter;
+}
+
+.Christmas-time>div>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Christmas-time>div>div>a{
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+}
+
+.Christmas-time>div>div>a:hover{
+    border-bottom: 1px solid gray;
+}
