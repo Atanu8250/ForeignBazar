@@ -35,7 +35,7 @@
 
 
 /* First Slider */
-.First-Slider{
+.Slider{
     margin: 40px 0px;
     /* border: 1px solid red; */
     overflow: hidden;
@@ -43,7 +43,7 @@
 }
 
 
-.First-Slider-Cards{
+.Slider-Cards{
     /* border: 1px solid green; */
     display: flex;
     align-items: flex-start;
@@ -270,3 +270,49 @@
 .Designer-Clearance>div>a:hover{
     border-bottom: 1px solid gray;
 }
+
+
+
+
+.Nordy-Pod{
+    background-image: url("https://n.nordstrommedia.com/id/50731a37-8fb1-4ae1-bd40-4597e2266297.jpeg");
+    background-size: 100% 100%;
+    margin: 20px 0px;
+    height: 200px;
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.Nordy-Pod>div{
+    width: fit-content;
+    align-items: flex-start;
+    position: absolute;
+    left: 50%;
+}
+
+.Nordy-Pod>div>h1{
+    font-size: 15px;
+}
+
+.Nordy-Pod>div>p{
+    font-weight: lighter;
+}
+
+.Nordy-Pod>div>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nordy-Pod>div>div>a{
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+}
+
+.Nordy-Pod>div>div>a:hover{
+    border-bottom: 1px solid gray;
+}
+
+
+

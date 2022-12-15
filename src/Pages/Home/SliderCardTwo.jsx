@@ -31,11 +31,11 @@ const SliderCardTwo = ({ name, description, brand, size, images: [imageOne, imag
                     <Text>INR {price}</Text>
                     <Text>(Up to {parcentage()}% off select items)</Text>
                     <Text as='s'>INR {strikeOfPrice}</Text>
-                    <HStack>
+                    <Flex>
                         {stars?.map((e, i) => {
                             return e === 1 ? <MdStarRate key={i} /> : <MdStarBorder key={i} />
                         })}<Text>({count})</Text>
-                    </HStack>
+                    </Flex>
                 </VStack>
             </Link>
 
@@ -45,16 +45,16 @@ const SliderCardTwo = ({ name, description, brand, size, images: [imageOne, imag
                     <ModalCloseButton />
                     <ModalBody>
                         <Flex flexDirection={["column", "row"]} alignItems="flex-start" p="50px 20px 20px 20px" gap="10px">
-                            <VStack>
+                            <VStack width="50%">
                                 <Image src={imageOne} />
                                 <Image src={imageTwo} />
                             </VStack>
-                            <VStack gap="15px" alignItems="flex-start">
-                                <HStack gap="0px">
+                            <VStack width="45%" gap="15px" alignItems="flex-start">
+                                <Flex gap="0px">
                                     {stars?.map((e, i) => {
                                         return e === 1 ? <MdStarRate key={i} /> : <MdStarBorder key={i} />
                                     })}<Text>({count})</Text>
-                                </HStack>
+                                </Flex>
                                 <Heading fontSize="25px">{name}</Heading>
                                 <Text fontSize="17px">{brand}</Text>
                                 <Text>{description}</Text>
