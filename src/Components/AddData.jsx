@@ -57,7 +57,7 @@ export default function AddData() {
         .then(res=> console.log(res))
         .catch(err => console.log(err))
 
-        console.log("data transfered")
+        // console.log("data transfered")
     }
 
     return (

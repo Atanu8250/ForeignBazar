@@ -75,6 +75,14 @@ export default function SecondCarousel() {
             link: ["Holiday Night Out"],
             image:
                 'https://n.nordstrommedia.com/id/e0a83ddd-e465-443a-ac82-94038dca939d.jpeghttps://n.nordstrommedia.com/id/4039c0ab-964b-4a62-b4b8-909523fb7c0c.jpeg',
+        },
+        {
+          title: 'Altogether Cozy ',
+          text:
+            "Festive Pajamas for the whole family",
+          link:["Kid's Pajamas & Robes"],
+          image:
+            'https://n.nordstrommedia.com/id/4e990e80-324e-4641-91fc-f2b02ce7c8e9.jpeg',
         }
     ];
 

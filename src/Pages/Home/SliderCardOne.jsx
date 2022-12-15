@@ -1,5 +1,5 @@
 import React from 'react'
-import { VStack, HStack, Image, Text } from '@chakra-ui/react'
+import { VStack, Flex, Image, Text } from '@chakra-ui/react'
 import { MdStarRate, MdStarBorder } from 'react-icons/md'
 
 
@@ -17,11 +17,11 @@ const SliderCardOne = ({ brand, images: [imageOne], price, ratings: { rating, co
       <Text>Arrives before Christmas</Text>
       <Text>{brand}</Text>
       <Text>INR {price}</Text>
-      <HStack>
+      <Flex>
         {stars?.map((e, i) => {
           return e === 1 ? <MdStarRate key={i} /> : <MdStarBorder key={i} />
         })}<Text>({count})</Text>
-      </HStack>
+      </Flex>
     </VStack>
   )
 }

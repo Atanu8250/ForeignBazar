@@ -119,7 +119,7 @@
       "name": "Heart Bracelet",
       "description": "Heart-shaped links in a double rainbow of colors forms a sweet bracelet that's ready for a jingly collection of clip-on charms.",
       "brand": "CHARM IT!®",
-      "type": "Cosmetics",
+      "type": "cosmetics",
       "gender": "Female",
       "size": 1,
       "images": [
@@ -195,7 +195,7 @@
       "name": "Little Lipstick Trio",
       "description": "What it is: A limited-edition set of three lipsticks in all-new Sparkling Wine and Rosé shades, in a box for gifting.",
       "brand": "MAC COSMETICS",
-      "type": "Cosmetics",
+      "type": "cosmetics",
       "gender": "Female",
       "size": 1,
       "images": [
@@ -252,7 +252,7 @@
       "name": "Cheers to You Lipglass Kit",
       "description": "What it is: A three-piece set featuring a trio of products that will leave lips looking and feeling their plump best.",
       "brand": "MAC COSMETICS",
-      "type": "Cosmetics",
+      "type": "cosmetics",
       "gender": "Female",
       "size": 1,
       "images": [
@@ -293,8 +293,8 @@
       "gender": "Male",
       "size": 7,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg"
       ],
       "strikeOfPrice": 14499.85,
       "price": 12302,
@@ -305,7 +305,7 @@
       "id": 16
     }
   ],
-  "Male": [
+  "male": [
     {
       "name": "Cashmere Crewneck Sweater",
       "description": "Knit from soft cashmere yarns, a lightweight, refined crewneck sweater is a luxe layering option when the temperature starts to drop.",
@@ -314,8 +314,8 @@
       "gender": "Male",
       "size": 7,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/b8afd0c7-cc0f-4ab0-a5da-a1b23096c662.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/b71960a9-9b54-499c-91b3-47126d6e9077.jpeg"
       ],
       "strikeOfPrice": 14499.85,
       "price": 12302,
@@ -333,8 +333,8 @@
       "gender": "Male",
       "size": 7,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/921a30f5-ca57-4ae7-bfeb-a40257678339.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/30770d90-e2af-48da-9208-4c97e6ee7cea.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/921a30f5-ca57-4ae7-bfeb-a40257678339.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/30770d90-e2af-48da-9208-4c97e6ee7cea.jpeg"
       ],
       "strikeOfPrice": 1498,
       "price": 1245.46,
@@ -352,8 +352,8 @@
       "gender": "Male",
       "size": 8,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/8ca923a6-2da3-42bf-8210-a0d7f9dbf772.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/e19951e2-9f56-4558-b7e3-1887effd451d.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/8ca923a6-2da3-42bf-8210-a0d7f9dbf772.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/e19951e2-9f56-4558-b7e3-1887effd451d.jpeg"
       ],
       "strikeOfPrice": 8786.91,
       "price": 6589.96,
@@ -371,8 +371,8 @@
       "gender": "Male",
       "size": 1,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/ada60d30-e5b2-4a25-92c5-d4c7fe67dc50.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/d70f8d4c-98b7-4252-8e4e-cc26f9344f67.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/ada60d30-e5b2-4a25-92c5-d4c7fe67dc50.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/d70f8d4c-98b7-4252-8e4e-cc26f9344f67.jpeg"
       ],
       "strikeOfPrice": 13621.07,
       "price": 7030.23,
@@ -390,8 +390,8 @@
       "gender": "Male",
       "size": 10,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/00241b7f-bfa8-4f12-9c44-69240704efa4.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/341402aa-d622-4254-8157-f26a40f2862b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/00241b7f-bfa8-4f12-9c44-69240704efa4.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/341402aa-d622-4254-8157-f26a40f2862b.jpeg"
       ],
       "strikeOfPrice": 15999,
       "price": 11423.36,
@@ -409,8 +409,8 @@
       "gender": "Male",
       "size": 1,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg"
       ],
       "strikeOfPrice": 8203,
       "price": 7030.23,
@@ -428,8 +428,8 @@
       "gender": "Male",
       "size": 4,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/39462f95-46e0-4eb0-af21-99b509965baa.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/ee5b0f07-468f-4827-8a34-472cab92bced.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/39462f95-46e0-4eb0-af21-99b509965baa.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/ee5b0f07-468f-4827-8a34-472cab92bced.jpeg"
       ],
       "strikeOfPrice": 3199,
       "price": 3163.6,
@@ -447,8 +447,8 @@
       "gender": "Male",
       "size": 9,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/37c55c1c-eef8-4807-85f5-45154c06a338.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/78454076-1b38-403d-a82f-819c4543ce40.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/37c55c1c-eef8-4807-85f5-45154c06a338.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/78454076-1b38-403d-a82f-819c4543ce40.jpeg"
       ],
       "strikeOfPrice": 10234,
       "price": 9666.57,
@@ -466,8 +466,8 @@
       "gender": "Male",
       "size": 1,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/7ccb0614-ab41-468f-baf1-27fa03e13a61.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/82a3665e-5b51-437c-b5f8-5f37d6c7358b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/7ccb0614-ab41-468f-baf1-27fa03e13a61.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/82a3665e-5b51-437c-b5f8-5f37d6c7358b.jpeg"
       ],
       "strikeOfPrice": 3024.34,
       "price": 2724.21,
@@ -485,8 +485,8 @@
       "gender": "Male",
       "size": 12,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/cd3ca7b6-3118-4a14-ac32-0154bb6f94db.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/58f2fbcc-c77d-456f-85f8-bea7e3b7a0c9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/cd3ca7b6-3118-4a14-ac32-0154bb6f94db.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/58f2fbcc-c77d-456f-85f8-bea7e3b7a0c9.jpeg"
       ],
       "strikeOfPrice": 4833.28,
       "price": 4218.14,
@@ -504,8 +504,8 @@
       "gender": "Male",
       "size": 12,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/e609eb77-4e30-4f19-bc97-e4e560f553f9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/2e28ce8f-0dd4-4ffc-a418-ad43253ba8bb.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/e609eb77-4e30-4f19-bc97-e4e560f553f9.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/2e28ce8f-0dd4-4ffc-a418-ad43253ba8bb.jpeg"
       ],
       "strikeOfPrice": 2046.98,
       "price": 1346.56,
@@ -523,11 +523,11 @@
       "gender": "Male",
       "size": 15,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/4a93d4f1-d1f5-470b-99f0-835bdf5aaee1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/d1882c38-7c80-4902-b1fc-778df60f6eed.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/4a93d4f1-d1f5-470b-99f0-835bdf5aaee1.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/d1882c38-7c80-4902-b1fc-778df60f6eed.jpeg"
       ],
       "strikeOfPrice": 12564.65,
-      "price": 103256.56,
+      "price": 10256.56,
       "ratings": {
         "rating": 3,
         "count": 1
@@ -542,8 +542,8 @@
       "gender": "Male",
       "size": 10,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/6a065c35-f400-46aa-9da5-752e9a06a85e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/451aa40d-6717-475a-8fe8-105914deb9a7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/6a065c35-f400-46aa-9da5-752e9a06a85e.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/451aa40d-6717-475a-8fe8-105914deb9a7.jpeg"
       ],
       "strikeOfPrice": 8344.01,
       "price": 5841.24,
@@ -561,8 +561,8 @@
       "gender": "Male",
       "size": 13,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/8ad00eb8-3195-4f33-a1d1-532edd233dcd.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/abcd046a-c17d-47a4-9698-1dec3bfa9237.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/8ad00eb8-3195-4f33-a1d1-532edd233dcd.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/abcd046a-c17d-47a4-9698-1dec3bfa9237.jpeg"
       ],
       "strikeOfPrice": 5096.92,
       "price": 3822.69,
@@ -580,8 +580,8 @@
       "gender": "Male",
       "size": 9,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/4cabae55-0fe0-45df-a93a-ae6a25dc2d42.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/fed0ad56-b79e-4b1f-a186-ba99796a1f77.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/4cabae55-0fe0-45df-a93a-ae6a25dc2d42.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/fed0ad56-b79e-4b1f-a186-ba99796a1f77.jpeg"
       ],
       "strikeOfPrice": 5975.7,
       "price": 2546.7,
@@ -599,8 +599,8 @@
       "gender": "Male",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/c3bc71de-793f-41b7-9db5-b5450518c720.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/1e583c73-49f1-4308-bea7-ef1cca034410.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/c3bc71de-793f-41b7-9db5-b5450518c720.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/1e583c73-49f1-4308-bea7-ef1cca034410.jpeg"
       ],
       "strikeOfPrice": 8630.46,
       "price": 5975.7,
@@ -618,8 +618,8 @@
       "gender": "Male",
       "size": 10,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/a99a6ab4-cd11-41dc-82f8-0312c864c335.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/f1d82219-5d6d-4874-84b0-e71bc35d0cb4.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/a99a6ab4-cd11-41dc-82f8-0312c864c335.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/f1d82219-5d6d-4874-84b0-e71bc35d0cb4.jpeg"
       ],
       "strikeOfPrice": 15352.24,
       "price": 12302.91,
@@ -637,8 +637,8 @@
       "gender": "Male",
       "size": 163,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/61fbd683-cb63-4d73-b33a-1ceb669a40be.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/54dfcfbc-5b30-4c30-8142-a5b25e44d908.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/61fbd683-cb63-4d73-b33a-1ceb669a40be.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/54dfcfbc-5b30-4c30-8142-a5b25e44d908.jpeg"
       ],
       "strikeOfPrice": 1449.99,
       "price": 1159.99,
@@ -656,8 +656,8 @@
       "gender": "Male",
       "size": 13,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/4aac5434-bff7-41c9-84af-edd26a6b4170.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/e8ed7aaa-bb8d-4186-929d-c30d220b8cdc.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/4aac5434-bff7-41c9-84af-edd26a6b4170.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/e8ed7aaa-bb8d-4186-929d-c30d220b8cdc.jpeg"
       ],
       "strikeOfPrice": 9546.8,
       "price": 7469.62,
@@ -675,8 +675,8 @@
       "gender": "Male",
       "size": 12,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/2ca6f1cf-dc6a-4d3f-a5f7-ccf5cb6567fb.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/1672d7a7-5290-4d90-aa1a-5dc9e5dfec24.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/2ca6f1cf-dc6a-4d3f-a5f7-ccf5cb6567fb.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/1672d7a7-5290-4d90-aa1a-5dc9e5dfec24.jpeg"
       ],
       "strikeOfPrice": 10457.47,
       "price": 7843.1,
@@ -687,7 +687,7 @@
       "id": 20
     }
   ],
-  "Female": [
+  "female": [
     {
       "name": "Performance Joggers",
       "description": "Give your work-from-home uniform a cozy upgrade with these soft, relaxed joggers that are also stylish enough for errands",
@@ -696,8 +696,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/e52b3d19-7611-4b25-9342-f46ce7a75975.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/4429bf87-78b1-4655-852b-e3dee70cc62e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/e52b3d19-7611-4b25-9342-f46ce7a75975.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/4429bf87-78b1-4655-852b-e3dee70cc62e.jpeg"
       ],
       "strikeOfPrice": 9999,
       "price": 8260,
@@ -715,8 +715,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/532f599c-3846-476d-a41f-7863625b22fa.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/11b782e0-99dc-45a2-9b6a-5ce7af60addc.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/532f599c-3846-476d-a41f-7863625b22fa.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/11b782e0-99dc-45a2-9b6a-5ce7af60addc.jpeg"
       ],
       "strikeOfPrice": 6543,
       "price": 5184,
@@ -734,8 +734,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/568c2dcc-62d2-4c40-ae33-a968c4ebf2e0.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/5f8bf641-43dc-4114-bdc6-495e1ac3476f.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/568c2dcc-62d2-4c40-ae33-a968c4ebf2e0.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/5f8bf641-43dc-4114-bdc6-495e1ac3476f.jpeg"
       ],
       "strikeOfPrice": 9000,
       "price": 8612.43,
@@ -753,8 +753,8 @@
       "gender": "Female",
       "size": 4,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/83ac6f55-840f-4d56-84b7-34313406478b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/c601cd37-5342-4a18-8ea4-10fa0971fcce.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/83ac6f55-840f-4d56-84b7-34313406478b.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/c601cd37-5342-4a18-8ea4-10fa0971fcce.jpeg"
       ],
       "strikeOfPrice": 5299,
       "price": 4833,
@@ -772,8 +772,8 @@
       "gender": "Female",
       "size": 4,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/51a8e341-56a4-4e85-9729-6cef2cdfe4e7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/f6d27119-baca-4d91-973c-eca527adb6c3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/51a8e341-56a4-4e85-9729-6cef2cdfe4e7.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/f6d27119-baca-4d91-973c-eca527adb6c3.jpeg"
       ],
       "strikeOfPrice": 7599,
       "price": 7733.45,
@@ -791,8 +791,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/ae2fa614-3bab-4b08-9a55-3abd9d4e01af.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/bb7cbf00-4176-4206-8dfd-4873cb19c7ec.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/ae2fa614-3bab-4b08-9a55-3abd9d4e01af.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/bb7cbf00-4176-4206-8dfd-4873cb19c7ec.jpeg"
       ],
       "strikeOfPrice": 8999,
       "price": 8502.19,
@@ -810,8 +810,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/6535c596-3d41-4531-a73e-5d61dff37d79.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/76ea74d0-e547-4590-9441-62f33cae45d8.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/6535c596-3d41-4531-a73e-5d61dff37d79.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/76ea74d0-e547-4590-9441-62f33cae45d8.jpeg"
       ],
       "strikeOfPrice": 6707.56,
       "price": 5847.79,
@@ -829,8 +829,8 @@
       "gender": "Female",
       "size": 7,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/c0d170c0-c6fb-4829-bc57-75463869f52e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        "https://n.nordstrommedia.com/id/sr3/7fa35ac9-e534-419d-a62a-c0d874b41ad1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196"
+        "https://n.nordstrommedia.com/id/sr3/c0d170c0-c6fb-4829-bc57-75463869f52e.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/7fa35ac9-e534-419d-a62a-c0d874b41ad1.jpeg"
       ],
       "strikeOfPrice": 6767,
       "price": 3638.54,
@@ -848,8 +848,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/0d9e65cf-bd8e-401c-ac13-4ef72abf4fe2.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/77fcfc4a-620a-4d4a-a393-829b3d2fc316.jpeg"
       ],
       "strikeOfPrice": 7499,
       "price": 7030.32,
@@ -867,10 +867,9 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/5fce4f3a-100f-4c3d-8505-0d2da03c2382.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/8e9381be-3b61-4b6e-b9f7-e524c3f31ee5.jpeg?crop=pad&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/5fce4f3a-100f-4c3d-8505-0d2da03c2382.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/8e9381be-3b61-4b6e-b9f7-e524c3f31ee5.jpeg"
       ],
-      "strikeOfPrice": 6300,
       "price": 6019.78,
       "ratings": {
         "rating": 4.5,
@@ -886,8 +885,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/ca688bf6-0290-4202-b65f-89ead35735a4.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/2ad209e1-ea3e-4ee7-834d-408f8dfede3b.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/ca688bf6-0290-4202-b65f-89ead35735a4.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/2ad209e1-ea3e-4ee7-834d-408f8dfede3b.jpeg"
       ],
       "strikeOfPrice": 3999.5,
       "price": 3624,
@@ -905,8 +904,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/8ef8b2fa-a6fb-4ebe-b712-e9dd2b82ede7.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/79d43994-337c-4661-ad92-ebf69748b0f1.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/8ef8b2fa-a6fb-4ebe-b712-e9dd2b82ede7.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/79d43994-337c-4661-ad92-ebf69748b0f1.jpeg"
       ],
       "strikeOfPrice": 90000,
       "price": 85136,
@@ -924,8 +923,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/8c49c078-67ed-484b-83d1-151c708a27aa.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/ab84c9d0-a9d8-4fc5-b8a8-221b14bfd1a8.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/8c49c078-67ed-484b-83d1-151c708a27aa.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/ab84c9d0-a9d8-4fc5-b8a8-221b14bfd1a8.jpeg"
       ],
       "strikeOfPrice": 5287.25,
       "price": 4987.32,
@@ -943,8 +942,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/40adcecd-a438-43e7-8535-e12e90d39d32.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/e44c39a5-d80d-4b2b-bb76-a2525ffa3efa.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/40adcecd-a438-43e7-8535-e12e90d39d32.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/e44c39a5-d80d-4b2b-bb76-a2525ffa3efa.jpeg"
       ],
       "strikeOfPrice": 1367.34,
       "price": 11007.69,
@@ -962,8 +961,8 @@
       "gender": "Female",
       "size": 6,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/6c0e3388-ca97-4214-bfde-e5a1a2993160.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/fea2af04-ca22-4948-a004-3ae1c3f25b71.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/6c0e3388-ca97-4214-bfde-e5a1a2993160.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/fea2af04-ca22-4948-a004-3ae1c3f25b71.jpeg"
       ],
       "strikeOfPrice": 8365.54,
       "price": 7909.34,
@@ -981,8 +980,8 @@
       "gender": "Female",
       "size": 7,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/8182c3a4-7f3a-4097-959b-0a923e2a2d24.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/4711c78e-344b-4a48-b416-d551c7828e19.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/8182c3a4-7f3a-4097-959b-0a923e2a2d24.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/4711c78e-344b-4a48-b416-d551c7828e19.jpeg"
       ],
       "strikeOfPrice": 4300,
       "price": 2107.65,
@@ -1000,8 +999,8 @@
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/ff386bbc-d1b6-40ab-8e11-20483f6e1c53.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/b87f6880-ebff-469a-a04a-fc302b03d5ff.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/ff386bbc-d1b6-40ab-8e11-20483f6e1c53.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/b87f6880-ebff-469a-a04a-fc302b03d5ff.jpeg"
       ],
       "strikeOfPrice": 215453.65,
       "price": 148512.45,
@@ -1015,12 +1014,12 @@
       "name": "Laguna Waterproof Lug Sole Chelsea Boot",
       "description": "A heavily lugged sole lends a utilitarian update to a classic Chelsea boot with stretchy gore insets at each side.",
       "brand": "SAM EDELMAN",
-      "type": "shoes",
+      "type": "shoe",
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/4c0a8885-8137-40f2-b810-1b6fc529f1ae.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/008e60c1-ba5e-401c-8548-55dd2e5e1e26.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/4c0a8885-8137-40f2-b810-1b6fc529f1ae.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/008e60c1-ba5e-401c-8548-55dd2e5e1e26.jpeg"
       ],
       "strikeOfPrice": 14535,
       "price": 8771.13,
@@ -1034,12 +1033,12 @@
       "name": "UGG Classic Mini II Genuine Shearling Lined Boot",
       "description": "Pretreated to protect against moisture and staining, this timeless UGG boot is a supremely cozy cold-weather favorite.",
       "brand": "UGG®",
-      "type": "shoes",
+      "type": "shoe",
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/f3333929-b6b6-4998-a734-e616bdd8d97d.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/e9708532-faee-446c-8292-f70d7ae71a73.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/f3333929-b6b6-4998-a734-e616bdd8d97d.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/e9708532-faee-446c-8292-f70d7ae71a73.jpeg"
       ],
       "strikeOfPrice": 2499.99,
       "price": 13116.32,
@@ -1053,12 +1052,12 @@
       "name": "Chuck Taylor® All Star® High Top Platform Sneake",
       "description": "An iconic silhouette gets a boost in this high-top sneaker that has everything you love about the classic but with a double-stacked sole.",
       "brand": "CONVERSE",
-      "type": "shoes",
+      "type": "shoe",
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/025167c0-eb67-49af-ab34-f1a131481e1a.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/0d6f4b2e-d75f-4802-bc8b-5a36c53f1778.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/025167c0-eb67-49af-ab34-f1a131481e1a.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/0d6f4b2e-d75f-4802-bc8b-5a36c53f1778.jpeg"
       ],
       "strikeOfPrice": 7390,
       "price": 6590.12,
@@ -1072,12 +1071,12 @@
       "name": "Leopold Chelsea Boot",
       "description": "A lug sole updates a timeless Chelsea boot that will take you from the office to happy hour with casual-cool style.",
       "brand": "STEVE MADDEN",
-      "type": "shoes",
+      "type": "shoe",
       "gender": "Female",
       "size": 5,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/619618b3-ea51-4ebe-9539-5f28777ceca6.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838",
-        "https://n.nordstrommedia.com/id/sr3/3a481399-efdc-4111-bc39-f06fbb305934.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838"
+        "https://n.nordstrommedia.com/id/sr3/619618b3-ea51-4ebe-9539-5f28777ceca6.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/3a481399-efdc-4111-bc39-f06fbb305934.jpeg"
       ],
       "strikeOfPrice": 12134.21,
       "price": 10200,
@@ -1088,12 +1087,14 @@
       "id": 21
     }
   ],
-  "users": [
+  "Users": [
     {
-      "user-id": "heihta",
+      "id": 1,
+      "userId": "Atanu_123456",
       "name": "Atanu Karmakar",
       "email": "atanu20uparsole@gmail.com",
-      "password": "123456",
+      "password": "atanu1234",
+      "tag": "admin",
       "cart": [
         {
           "id": 1,
@@ -1113,6 +1114,15 @@
           "ratings": 4
         }
       ]
+    },
+    {
+      "userId": "hello_1671053522013",
+      "name": "hello try",
+      "email": "hello@gmail.com",
+      "password": "hello123",
+      "tag": "user",
+      "cart": [],
+      "id": 2
     }
   ]
 }

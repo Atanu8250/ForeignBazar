@@ -1,7 +1,7 @@
 import React from 'react'
 import ShowSignin from './ShowSignin'
 import FirstCarousel from './FirstCarousel'
-import FirstSlider from './FirstSlider'
+import Slider from './Slider'
 import ShortCard from './ShortCard'
 import { Heading, VStack, Link, Text, Center, HStack, Image, Box } from '@chakra-ui/react'
 import './Home.css'
@@ -25,7 +25,7 @@ const Home = () => {
 
 
       {/* 1st Slider Container */}
-      <FirstSlider serial={1}/>
+      <Slider serial={1}/>
 
       <Center className='Christmas-time'>
         <VStack>
@@ -39,7 +39,7 @@ const Home = () => {
         </VStack>
       </Center>
 
-      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png?h=17&w=1608" />
+      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
 
       <Heading my="70px" textAlign='center' fontSize='2xl' letterSpacing="1px" fontFamily="'Josefin Sans', sans-serif">GIFTS BY PRICE</Heading>
 
@@ -75,7 +75,7 @@ const Home = () => {
 
       <SecondCarousel />
 
-      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png?h=17&w=1608" />
+      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
 
       <Heading my="70px" textAlign='center' fontSize='2xl' color='gray.500' letterSpacing="4px" fontFamily="'Josefin Sans', sans-serif">SHOP BY CATEGORY</Heading>
 
@@ -90,11 +90,23 @@ const Home = () => {
         </HStack>
       </Box>
 
+      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
+
+      <Center className='Nordy-Pod'>
+        <VStack>
+          <Heading>New Episodes Every Other Week</Heading>
+          <Text>Go behind the scenes of Nordstrom with Pete Nordstrom and special guests.</Text>
+          <HStack>
+            <Link>Learn More</Link>
+          </HStack>
+        </VStack>
+      </Center>
+
       <Box mt="130px">
         <Heading fontSize="2xl">Here's What Caught Your Eye</Heading>
       </Box>
       {/* Second Slider container */}
-      <FirstSlider serial={2}/>
+      <Slider serial={2}/>
 
     </div>
   )

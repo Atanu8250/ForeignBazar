@@ -75,7 +75,7 @@
 
 .lowerNav>div:nth-child(3)>a:last-child>span {
     position: absolute;
-    top: 4px;
+    top: 5px;
     left: 8px;
     font-size: 14px;
 }

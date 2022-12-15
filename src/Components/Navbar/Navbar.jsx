@@ -1,11 +1,12 @@
-import { Container, Box,  Center, Flex, Image, Input, HStack, Divider, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Container, Box, Center, Flex, Image, Input, HStack, Divider, Text } from '@chakra-ui/react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { BsSearch, BsBag } from 'react-icons/bs'
 import { TfiGift } from 'react-icons/tfi'
 import { VscSignIn } from 'react-icons/vsc'
 import HoverPart from './HoverPart'
 import "./Navbar.css"
+import { AuthContext } from '../../Context/AuthContext'
 
 
 const HoverAreaData = {
@@ -51,8 +52,8 @@ const HoverAreaData = {
         ['https://n.nordstrommedia.com/id/98107c78-9f0c-45c9-ad92-23e61b8b935b.jpg']
     ],
 
-    'Men' : [
-        ['Men: Get Inspired', 'New Arrivals', 'Holiday Deals', 'Advanced Modern', 'Black-Owned & - Founded Brands', 'Bestsellers', "Men's Looks", 'New Concepts: Burberry', 'Nordstrom Made', 'Sneaker Release Calendar', 'Sports Fan' ],
+    'Men': [
+        ['Men: Get Inspired', 'New Arrivals', 'Holiday Deals', 'Advanced Modern', 'Black-Owned & - Founded Brands', 'Bestsellers', "Men's Looks", 'New Concepts: Burberry', 'Nordstrom Made', 'Sneaker Release Calendar', 'Sports Fan'],
 
         ['Clothing', 'Activewear', 'Blazers & Sport Coats', 'Coats & Jackets', 'Dress Shirts', 'Jeans', 'Lounge, Pajamas & Robes', 'Pants', 'Polo Shirts', 'Shirts', 'Suits & Separates', 'Sweaters', 'Sweatshirts & Hoodies', 'Swimwear & Board Shorts', 'T-Shirts'],
 
@@ -69,6 +70,11 @@ const HoverAreaData = {
 
 
 const Navbar = () => {
+
+    const { authState } = useContext(AuthContext)
+    const user = authState.isAuth ? authState.token.split("_")[0] : "";
+    console.log('user:', user)
+
     return (
         <>
             <Box className='Navbar'>
@@ -86,11 +92,11 @@ const Navbar = () => {
                     </HStack>
 
                     <HStack>
-                        <Link to="/signin">
-                            <VscSignIn/>
-                        <span>Sign In</span>
-                        </Link>
-                        <Link href='#'>
+                        {user ? <Link>Hi, {user}</Link> : <Link to="/signin">
+                            <VscSignIn />
+                            <span>Sign In</span>
+                        </Link>}
+                        <Link to="/products/male">
                             <svg width="24px" height="24px" focusable="false">
                                 <g fill="none" stroke="#393939" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10">
                                     <path d="M.756.75h22.488v20.309H.756z"></path>
@@ -112,7 +118,7 @@ const Navbar = () => {
                             <span>Purchases
                             </span>
                         </Link>
-                        <Link href='#'>
+                        <Link to="./cart">
                             <BsBag />
                             <span>0</span>
                         </Link>
@@ -134,12 +140,12 @@ const Navbar = () => {
                     </Box>
 
                     <Box>
-                        <Link href='#'> Women </Link>
+                        <Link to="/products/female"> Women </Link>
                         <HoverPart data={HoverAreaData['Women']} />
                     </Box>
 
                     <Box>
-                        <Link href='#'> Men </Link>
+                        <Link to="/products/male"> Men </Link>
                         <HoverPart data={HoverAreaData['Men']} />
                     </Box>
 

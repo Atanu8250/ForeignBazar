@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
     Box,
     Container,
@@ -17,6 +17,7 @@ import { FaPinterestP, FaFacebookF } from 'react-icons/fa';
 import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { FiPlus } from 'react-icons/fi';
 import style from './Footer.module.css'
+import { AuthContext } from '../../Context/AuthContext';
 
 
 const ListHeader = ({ children }) => {
@@ -28,9 +29,12 @@ const ListHeader = ({ children }) => {
 };
 
 export default function Footer() {
+
+    const {authState} = useContext(AuthContext)
+
     return (
         <>
-            <HStack className={style.email_update}>
+            <HStack className={style.email_update} display={authState.isAuth ? "none" : "flex"}>
                 <HStack>
                     <Text>Get Email Updates:</Text>
                     <Input borderRadius="none" placeholder='Email Address'/>
