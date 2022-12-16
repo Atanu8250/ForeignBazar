@@ -1,9 +1,10 @@
 import React from 'react'
 import { VStack, Flex, Image, Text } from '@chakra-ui/react'
-import { MdStarRate, MdStarBorder } from 'react-icons/md'
+import { MdStarRate } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 
-const SliderCardOne = ({ brand, images: [imageOne], price, ratings: { rating, count } }) => {
+const SliderCardOne = ({id, brand, images: [imageOne], price, ratings: { rating, count } }) => {
 
   const stars = new Array(rating).fill(1)
   for (let i = stars.length; i < 5; i++) {
@@ -11,18 +12,18 @@ const SliderCardOne = ({ brand, images: [imageOne], price, ratings: { rating, co
   }
 
   return (
-    <VStack className='Slider-Card-One'>
-      <Image src={imageOne} />
+    <Link to={`/products/products/${id}`}>
+      <VStack className='Slider-Card-One'>
+        <Image src={imageOne} />
 
-      <Text>Arrives before Christmas</Text>
-      <Text>{brand}</Text>
-      <Text>INR {price}</Text>
-      <Flex>
-        {stars?.map((e, i) => {
-          return e === 1 ? <MdStarRate key={i} /> : <MdStarBorder key={i} />
-        })}<Text>({count})</Text>
-      </Flex>
-    </VStack>
+        <Text>Arrives before Christmas</Text>
+        <Text>{brand}</Text>
+        <Text>INR {price}</Text>
+        <Flex>
+          {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
+        </Flex>
+      </VStack>
+    </Link>
   )
 }
 

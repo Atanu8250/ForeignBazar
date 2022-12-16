@@ -1,0 +1,171 @@
+.ProductDetails {
+    margin: 50px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    display: flex;
+}
+
+.Product {
+    max-width: 1200px;
+    /* margin: 0; */
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left {
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.left_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img_wrap {
+    width: 80px;
+    border: 1px solid rgb(186, 186, 186);
+    cursor: pointer;
+}
+
+.img_wrap img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.left_2 {
+    z-index: 1;
+}
+
+.left_2>img {
+    width: 300px !important;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* right part */
+.right {
+    padding: 10px;
+    /* border: 1px solid #c3c3c3; */
+    max-width: 500px;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start !important;
+}
+
+.right>div:first-child {
+    align-items: center;
+}
+
+.right>div:first-child>svg {
+    font-size: 18px;
+}
+
+.right>div:first-child>p {
+    color: gray;
+}
+
+/* Product name */
+.right>h2:nth-child(2) {
+    font-weight: 400 !important;
+}
+
+/* brand name */
+.right>p:nth-child(3) {
+    letter-spacing: 1px;
+    color: #565656;
+    font-size: 1em;
+}
+
+/* Price */
+.right>p:nth-child(4) {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Off */
+.right>p:nth-child(5) {
+    color: red;
+}
+
+/* StrikeOff Price */
+.right>s:nth-child(6) {
+    font-size: 1em;
+    color: #7a7a7a;
+    margin-top: 10px;
+}
+
+/* Limited Time sale */
+.right>p:nth-child(7) {
+    color: #eb222c;
+    font-weight: bold;
+}
+
+/* Description */
+.right>p:nth-child(8) {
+    color: #686868;
+    margin: 10px 0px;
+}
+
+/* Select Tag */
+.right>div:nth-child(9) {
+    margin: 10px 0px;
+    width: 75%;
+}
+
+/* Peopple are viewing */
+.right>p:nth-child(10) {
+    margin-top: 30px;
+    color: #eb222c;
+}
+
+/* Add to Cart button */
+.right>button:nth-child(11) {
+    width: 75%;
+    color: #fff;
+    background-color: #181818;
+}
+
+
+/* Small Cards section */
+.smallCards{
+    border: 1px solid red;
+    width: 100%;
+}
+
+/* Single Small Card */
+.Small-card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.Small-card>div:nth-child(1){
+    position: relative;
+}
+
+.Small-card>div:nth-child(1):hover>div{
+    display: flex;
+}
+
+.Small-card>div:nth-child(1)>div{
+    border: 1px solid gray;
+    background-color: #ffffff78;
+    color: #545454;
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Small-card>div:nth-child(1)>div:hover{
+    border: 1px solid #181818;
+    background-color: #ffffffc2;
+    color: #181818;
+}

@@ -5,7 +5,7 @@ import Card from './Card'
 import './Products.css'
 import axios from 'axios'
 import SkeletonLoader from './SkeletonLoader'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { BsCaretLeft, BsCaretRight } from "react-icons/bs"
 
 
@@ -151,7 +151,6 @@ const Products = () => {
     const handleFilterChange = (e) => {
         const n = e.target.name;
         const v = e.target.checked;
-        // console.log( e.target.name, e.target.checked)
         let obj = { ...filterChange };
         obj[n] = v;
 
@@ -167,12 +166,10 @@ const Products = () => {
 
             }
         }
-        // console.log(filterStr)
         setFilterBy(filterStr)
         setFilterChange(obj)
     }
 
-    console.log(filterChange, filterBy);
 
     return (
         <>
@@ -590,7 +587,7 @@ const Products = () => {
                             </HStack>
                         </Flex>
                         <Box>
-                            {laoding ? <SkeletonLoader /> : data?.map((item) => <Card key={item.id} {...item} />)}
+                            {laoding ? <SkeletonLoader /> : data?.map((item) =><Link to={`/products/${gender}/${item.id}`} key={item.id}><Card {...item} /></Link>)}
                         </Box>
                         <Center gap="15px" my="10px" alignItems="center">
                             <Button colorScheme="red" onClick={() => setPage(page - 1)} visibility={page <= 1 ? "hidden" : "show"}><BsCaretLeft /></Button>
