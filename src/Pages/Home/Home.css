@@ -147,6 +147,7 @@
     color: rgb(85, 85, 85);
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.638);
+    cursor: pointer;
 }
 
 .Slider-Card-Two>div:nth-child(1):hover>div{
@@ -160,44 +161,44 @@
 }
 
 
-.Slider-Card-Two>p{
+.Slider-Card-Two>a>p{
     font-size: 15px;
 }
 
-.Slider-Card-Two>p:nth-child(2){
+.Slider-Card-Two>a>p:nth-child(1){
     color: #d61f27;
     font-size: 18px;
     font-weight: bold;
 }
 
-.Slider-Card-Two>p:nth-child(3){
+.Slider-Card-Two>a>p:nth-child(2){
     font-weight: lighter;
     font-size: 17px;
 }
 
-.Slider-Card-Two>p:nth-child(4){
+.Slider-Card-Two>a>p:nth-child(3){
     font-weight: bold;
     color: #d61f27;
     font-size: 18px;
 }
 
-.Slider-Card-Two>p:nth-child(5){
+.Slider-Card-Two>a>p:nth-child(4){
     font-weight: 400;
     font-size: 17px;
     color: #d61f27;
 }
 
-.Slider-Card-Two>s:nth-child(6){
+.Slider-Card-Two>s:nth-child(5){
     color: gray;
     font-size: 17px;
     font-weight: lighter;
 }
 
-.Slider-Card-Two>div:nth-child(7)>svg{
+.Slider-Card-Two>div:nth-child(6)>svg{
     font-size: large;
 }
 
-.Slider-Card-Two>div:nth-child(7)>p{
+.Slider-Card-Two>div:nth-child(6)>p{
     color: rgb(107, 107, 107);
     font-weight: lighter;
 }

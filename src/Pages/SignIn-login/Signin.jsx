@@ -9,7 +9,7 @@ import { AuthContext } from '../../Context/AuthContext';
 
 const Signin = () => {
 
-    const { authState, login } = useContext(AuthContext)
+    const { login } = useContext(AuthContext)
 
     const toast = useToast()
     const fnameRef = React.useRef()

@@ -9,22 +9,29 @@ const SmallCard = ({ id, name, description, brand, size, images: [imageOne, imag
     const { isOpen, onOpen, onClose } = useDisclosure()
     const imgRef = React.useRef()
 
+    let stars = new Array(5);
+    for (let i = 0; i < 5; i++) {
+        if (i < rating - 1) stars[i] = 1;
+        else stars[i] = 0;
+    }
+
     const parcentage = () => {
         return Math.abs((100 * (price - strikeOfPrice)) / strikeOfPrice).toFixed(2)
     }
 
     return (
         <>
-            <Link to={`/products/products/${id}`}>
-                <VStack className='Small-card'>
-                    <Box bgImage={`url(${imageOne})`}>
-                        <Center onClick={onOpen}>Quick View</Center>
-                    </Box>
-                    <Text>{rating === 5 ? "Limited Time sell" : ""}</Text>
+
+            <Flex className='Small-card'>
+                <Box bgImage={`url(${imageOne})`}>
+                    <Center onClick={onOpen}>Quick View</Center>
+                </Box>
+                <Link to={`/products/products/${id}`}>
+                    <Text>Limited Time sell</Text>
                     <Text>{brand}</Text>
                     <Text>(Up to {parcentage()}% off select items)</Text>
-                </VStack>
-            </Link>
+                </Link>
+            </Flex>
 
 
             <Modal isOpen={isOpen} onClose={onClose} size="2xl">

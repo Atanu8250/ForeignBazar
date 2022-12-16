@@ -5,7 +5,7 @@ import { BsBagPlusFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 
-const SliderCardTwo = ({id, name, description, brand, size, images: [imageOne, imageTwo], price, strikeOfPrice, ratings: { rating, count } }) => {
+const SliderCardTwo = ({ id, name, description, brand, size, images: [imageOne, imageTwo], price, strikeOfPrice, ratings: { rating, count } }) => {
 
     const { isOpen, onOpen, onClose } = useDisclosure()
     const imgRef = React.useRef()
@@ -22,21 +22,21 @@ const SliderCardTwo = ({id, name, description, brand, size, images: [imageOne, i
 
     return (
         <>
-            <Link to={`/products/male/${id}`}>
-                <VStack className='Slider-Card-Two'>
-                    <Box bgImage={`url(${imageOne})`}>
-                        <Center onClick={onOpen}>Quick View</Center>
-                    </Box>
+            <VStack className='Slider-Card-Two'>
+                <Box bgImage={`url(${imageOne})`}>
+                    <Center onClick={onOpen}>Quick View</Center>
+                </Box>
+                <Link to={`/products/male/${id}`}>
                     <Text>{rating === 5 ? "Limited Time sell" : ""}</Text>
                     <Text>{brand}</Text>
                     <Text>INR {price}</Text>
                     <Text>(Up to {parcentage()}% off select items)</Text>
                     <Text as='s'>INR {strikeOfPrice}</Text>
                     <Flex>
-                        {stars?.map((e, i) => <MdStarRate key={i} color={ e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
+                        {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
                     </Flex>
-                </VStack>
-            </Link>
+                </Link>
+            </VStack>
 
             <Modal isOpen={isOpen} onClose={onClose} size="2xl">
                 <ModalOverlay />
@@ -45,15 +45,15 @@ const SliderCardTwo = ({id, name, description, brand, size, images: [imageOne, i
                     <ModalBody>
                         <Flex flexDirection={["column", "row"]} alignItems="flex-start" p="50px 20px 20px 20px" gap="10px">
                             <VStack width="50%">
-                                <Image src={imageOne} ref={imgRef}/>
+                                <Image src={imageOne} ref={imgRef} />
                                 <Center gap="15px">
-                                    <Button variant="outline" onClick={() => imgRef.current.src=imageOne}>&lt;</Button>
-                                    <Button variant="outline" onClick={() => imgRef.current.src=imageTwo}>&gt;</Button>
+                                    <Button variant="outline" onClick={() => imgRef.current.src = imageOne}>&lt;</Button>
+                                    <Button variant="outline" onClick={() => imgRef.current.src = imageTwo}>&gt;</Button>
                                 </Center>
                             </VStack>
                             <VStack width="45%" gap="15px" alignItems="flex-start">
                                 <Flex gap="0px">
-                                    {stars?.map((e, i) => <MdStarRate key={i} color={ e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
+                                    {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
                                 </Flex>
                                 <Heading fontSize="25px">{name}</Heading>
                                 <Text fontSize="17px">{brand}</Text>

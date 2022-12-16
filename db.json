@@ -1112,6 +1112,44 @@
           "strikeOfPrice": 200,
           "price": 175,
           "ratings": 4
+        },
+        {
+          "id": 4,
+          "name": "Sugar Lip Balm Set USD $38/CAD $51 Value",
+          "description": "What it is: Treat your lips to this limited-edition three-piece set of to-go essentials that will deliver all-day moisture and color.",
+          "brand": "FRESH®",
+          "type": "ornament",
+          "gender": "Female",
+          "size": 1,
+          "images": [
+            "https://n.nordstrommedia.com/id/sr3/48198d4d-f990-4a03-92ec-b34b4326dc1b.jpeg",
+            "https://n.nordstrommedia.com/id/sr3/88da5d0e-b351-4bb2-a7b2-53e576826527.jpeg"
+          ],
+          "strikeOfPrice": 2199,
+          "price": 2149.92,
+          "ratings": {
+            "rating": 5,
+            "count": 1
+          }
+        },
+        {
+          "id": 3,
+          "name": "Ribbed Crew Socks",
+          "description": "Soft, stretchy ribbed socks have a cozy slouchy fit through the ankles and reinforced heels and toes for durability.",
+          "brand": "UGG ®",
+          "type": "socks",
+          "gender": "common",
+          "size": 6,
+          "images": [
+            "https://n.nordstrommedia.com/id/sr3/3b6c8ee3-5552-4a00-9043-a8f6af67f17e.jpeg",
+            "https://n.nordstrommedia.com/id/sr3/60fdbf5c-0866-4e11-87c2-8827f97dab47.jpeg"
+          ],
+          "strikeOfPrice": 1799,
+          "price": 1581.8,
+          "ratings": {
+            "rating": 4,
+            "count": 304
+          }
         }
       ]
     },
