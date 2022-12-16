@@ -8,6 +8,7 @@ import SignIn from '../Pages/SignIn-login/SignInEntry';
 import AddData from '../Components/AddData';
 import Products from '../Pages/Products/Products';
 import Cart from '../Pages/Cart/Cart';
+import ProductDetails from '../Pages/SinglePage/ProductDetails';
 
 const AllRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AllRoutes = () => {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/admin' element={<AddData/>}></Route>
         <Route path='/products/:gender' element={<Products/>}></Route>
+        <Route path='/products/:gender/:id' element={<ProductDetails/>}></Route>
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>}></Route>
     </Routes>
   )

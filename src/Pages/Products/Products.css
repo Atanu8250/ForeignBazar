@@ -1,11 +1,10 @@
-
-.Products{
+.Products {
     /* border: 1px solid red; */
     padding: 0px 30px;
     margin: 50px 0px;
 }
 
-.Main-Products{
+.Main-Products {
     /* border: 1px solid green; */
     display: flex;
     gap: 5px;
@@ -14,7 +13,7 @@
 
 
 /* Left part */
-.left-part{
+.left-part {
     width: 15%;
     height: fit-content;
     position: sticky;
@@ -22,12 +21,12 @@
     left: 0;
 }
 
-.left-part>div>div{
+.left-part>div>div {
     border-bottom: 1px solid rgb(237, 237, 237);
     padding: 10px 0px;
 }
 
-.left-part>div>div>div>div{
+.left-part>div>div>div>div {
     display: flex;
     flex-direction: column;
 }
@@ -35,15 +34,15 @@
 
 
 /* Right Part */
-.right-part{
+.right-part {
     width: 85%;
 }
 
-.right-part>h2{
+.right-part>h2 {
     font-weight: 400;
 }
 
-.right-part>div:nth-child(3){
+.right-part>div:nth-child(3) {
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -51,20 +50,40 @@
     padding: 0px 15px;
 }
 
-.right-part>div:nth-child(3)>p{
+.right-part>div:nth-child(3)>p {
     font-size: 1.2em;
 }
 
-.right-part>div:nth-child(2)>select{
+.right-part>div:nth-child(2)>select {
     width: 2rem !important;
 }
 
-.right-part>div:nth-child(4){
+.right-part>div:nth-child(4) {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 60px 20px;
 }
 
+@media all and (max-width: 768px) {
+    .right-part>div:nth-child(4) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .Products {
+        padding: 0px;
+    }
+
+    .left-part {
+        width: 35%;
+    }
+
+    .right-part>div:nth-child(4) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
 
@@ -113,19 +132,19 @@
 
 
 /* ================== Product Card ================== */
-.Card{
+.Card {
     flex-direction: column;
     gap: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     align-items: flex-start !important;
 }
 
-.Card>div:nth-child(1){
+.Card>div:nth-child(1) {
     position: relative;
     height: 95%;
 }
 
-.Card>div>button{
+.Card>div>button {
     border-radius: 50%;
     position: absolute;
     right: 10px;
@@ -133,41 +152,41 @@
     padding: 16px 0px;
 }
 
-.Card>div:nth-child(2){
+.Card>div:nth-child(2) {
     padding: 0px 8px 20px 8px;
 }
 
-.Card>div:nth-child(2)>p:nth-child(1){
+.Card>div:nth-child(2)>p:nth-child(1) {
     color: green;
 }
 
-.Card>div:nth-child(2)>p:nth-child(2){
+.Card>div:nth-child(2)>p:nth-child(2) {
     color: red;
 }
 
-.Card>div:nth-child(2)>p:nth-child(4){
+.Card>div:nth-child(2)>p:nth-child(4) {
     font-weight: bold;
 }
 
-.Card>div:nth-child(2)>p:nth-child(4){
+.Card>div:nth-child(2)>p:nth-child(4) {
     font-weight: lighter;
 }
 
-.Card>div:nth-child(2)>div:nth-child(5){
+.Card>div:nth-child(2)>div:nth-child(5) {
     gap: 15px;
 }
 
-.Card>div:nth-child(2)>div:nth-child(5)>p:first-child{
+.Card>div:nth-child(2)>div:nth-child(5)>p:first-child {
     color: red;
     font-weight: bold;
 }
 
-.Card>div:nth-child(2)>div:nth-child(5)>p:nth-child(2){
+.Card>div:nth-child(2)>div:nth-child(5)>p:nth-child(2) {
     color: red;
     font-weight: lighter;
 }
 
-.Card>div:nth-child(2)>div:nth-child(7)>p{
+.Card>div:nth-child(2)>div:nth-child(7)>p {
     margin-left: 5px;
     color: gray;
     font-weight: lighter;
