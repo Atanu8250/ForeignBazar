@@ -71,9 +71,9 @@ const HoverAreaData = {
 
 const Navbar = () => {
 
-    const { authState } = useContext(AuthContext)
-    const user = authState.isAuth ? authState.token.split("_")[0] : "";
-    console.log('user:', user)
+    const { authState, user } = useContext(AuthContext)
+    const userName = authState.isAuth ? authState.token.split("_")[0] : "";
+    // console.log('user:', user)
 
     return (
         <>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     </HStack>
 
                     <HStack>
-                        {user ? <Link>Hi, {user}</Link> : <Link to="/signin">
+                        {userName ? <Link>Hi, {userName}</Link> : <Link to="/signin">
                             <VscSignIn />
                             <span>Sign In</span>
                         </Link>}
@@ -120,7 +120,7 @@ const Navbar = () => {
                         </Link>
                         <Link to="./cart">
                             <BsBag />
-                            <span>0</span>
+                            <span>{ user.cart ? (user && user?.cart?.length) : 0}</span>
                         </Link>
                     </HStack>
                 </Flex>
