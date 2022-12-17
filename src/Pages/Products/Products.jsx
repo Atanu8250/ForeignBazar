@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Select, Text, Accordion, AccordionItem, AccordionButton, AccordionPanel, Divider, Checkbox, Center, Button, HStack } from '@chakra-ui/react'
+import { Box, Flex, Heading, Select, Text, Accordion, AccordionItem, AccordionButton, AccordionPanel, Divider, Checkbox, Center, Button, HStack, Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react'
 import { MinusIcon, AddIcon } from '@chakra-ui/icons'
 import React from 'react'
 import Card from './Card'
@@ -68,7 +68,7 @@ const Products = () => {
 
         setLoading(true);
         let apiUrl = getUrl(
-            `${import.meta.env.VITE_BASE_URL}/${gender}?_page=${page}&_limit=${limit}`,
+            `/${gender}?_page=${page}&_limit=${limit}`,
             sort,
             orderBy,
             filterBy
@@ -157,11 +157,11 @@ const Products = () => {
         let filterStr = "";
         for (let key in obj) {
             if (obj[key]) {
-                console.log(key)
+                // console.log(key)
                 if (key === 'cloth' || key === 'socks' || key === 'shoe' || key === 'cosmetics' || key === 'bag' || key === 'candle') {
-                    filterStr+= `&type=${key}`
+                    filterStr += `&type=${key}`
                 } else if (key == 4 || key == 5 || key == 6 || key == 7 || key == 8 || key == 9 || key == 10) {
-                    filterStr+= `&size=${key}`
+                    filterStr += `&size=${key}`
                 }
 
             }
@@ -174,6 +174,15 @@ const Products = () => {
     return (
         <>
             <Box className='Products'>
+                <Breadcrumb m="20px">
+                    <BreadcrumbItem>
+                        <Link to="/">Home</Link>
+                    </BreadcrumbItem>
+
+                    <BreadcrumbItem isCurrentPage>
+                        <BreadcrumbLink>Products</BreadcrumbLink>
+                    </BreadcrumbItem>
+                </Breadcrumb>
                 <Box className='Main-Products'>
                     <Box className='left-part'>
                         <Accordion allowToggle>
@@ -581,13 +590,13 @@ const Products = () => {
                                 <Select variant='filled' placeholder='Sort by Featured' borderRadius="none" w="" onChange={handleSort}>
                                     <option value="sbp-htl"> Sort by Price: high to low</option>
                                     <option value="sbp-lth"> Sort by Price: low to high</option>
-                                    <option value="sbr-htl"> Sort by rating: hight to low</option>
+                                    <option value="sbr-htl"> Sort by rating: high to low</option>
                                     <option value="sbr-lth"> Sort by rating: low to high</option>
                                 </Select>
                             </HStack>
                         </Flex>
                         <Box>
-                            {laoding ? <SkeletonLoader /> : data?.map((item) =><Link to={`/products/${gender}/${item.id}`} key={item.id}><Card {...item} /></Link>)}
+                            {laoding ? <SkeletonLoader /> : data?.map((item) => <Link to={`/products/${gender}/${item.id}`} key={item.id}><Card {...item} /></Link>)}
                         </Box>
                         <Center gap="15px" my="10px" alignItems="center">
                             <Button colorScheme="red" onClick={() => setPage(page - 1)} visibility={page <= 1 ? "hidden" : "show"}><BsCaretLeft /></Button>

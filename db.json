@@ -154,15 +154,15 @@
     },
     {
       "id": 9,
-      "name": "Joy, Peace & Love Cotton Blend Crew Socks",
+      "name": "6 Inch Premium Waterproof Boot",
       "description": "Celebrate the holiday season in these cozy cotton-blend crew socks.",
       "brand": "HOT SOX",
       "type": "socks",
       "gender": "Female",
       "size": 1,
       "images": [
-        "https://n.nordstrommedia.com/id/sr3/4357d81a-8327-45b5-b392-a96f14636a65.jpeg",
-        "https://n.nordstrommedia.com/id/sr3/975f7278-7243-44be-8710-51fd5fddaeba.jpeg"
+        "https://n.nordstrommedia.com/id/sr3/af5b3656-2110-4c8d-9bfd-04a059b9ca65.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/0433bc7d-2cb2-40fd-8c54-9953cf9c3f08.jpeg"
       ],
       "strikeOfPrice": 678.98,
       "price": 412.79,
@@ -1094,64 +1094,7 @@
       "name": "Atanu Karmakar",
       "email": "atanu20uparsole@gmail.com",
       "password": "atanu1234",
-      "tag": "admin",
-      "cart": [
-        {
-          "id": 1,
-          "name": "Stella McCartney",
-          "description": "Perforated Logo Mini Faux Leather Crossbody Bag",
-          "type": "shoe",
-          "gender": "Male",
-          "size": 6,
-          "brand": "Nike",
-          "quantity": 1,
-          "images": [
-            "https://n.nordstrommedia.com/id/sr3/28711c28-67f3-451c-8124-1dbb02e9adbc.jpeg",
-            "https://n.nordstrommedia.com/id/sr3/8bce6cdd-19dd-4900-81c2-6fa659574ad0.jpeg"
-          ],
-          "strikeOfPrice": 200,
-          "price": 175,
-          "ratings": 4
-        },
-        {
-          "id": 4,
-          "name": "Sugar Lip Balm Set USD $38/CAD $51 Value",
-          "description": "What it is: Treat your lips to this limited-edition three-piece set of to-go essentials that will deliver all-day moisture and color.",
-          "brand": "FRESH®",
-          "type": "ornament",
-          "gender": "Female",
-          "size": 1,
-          "images": [
-            "https://n.nordstrommedia.com/id/sr3/48198d4d-f990-4a03-92ec-b34b4326dc1b.jpeg",
-            "https://n.nordstrommedia.com/id/sr3/88da5d0e-b351-4bb2-a7b2-53e576826527.jpeg"
-          ],
-          "strikeOfPrice": 2199,
-          "price": 2149.92,
-          "ratings": {
-            "rating": 5,
-            "count": 1
-          }
-        },
-        {
-          "id": 3,
-          "name": "Ribbed Crew Socks",
-          "description": "Soft, stretchy ribbed socks have a cozy slouchy fit through the ankles and reinforced heels and toes for durability.",
-          "brand": "UGG ®",
-          "type": "socks",
-          "gender": "common",
-          "size": 6,
-          "images": [
-            "https://n.nordstrommedia.com/id/sr3/3b6c8ee3-5552-4a00-9043-a8f6af67f17e.jpeg",
-            "https://n.nordstrommedia.com/id/sr3/60fdbf5c-0866-4e11-87c2-8827f97dab47.jpeg"
-          ],
-          "strikeOfPrice": 1799,
-          "price": 1581.8,
-          "ratings": {
-            "rating": 4,
-            "count": 304
-          }
-        }
-      ]
+      "tag": "admin"
     },
     {
       "userId": "hello_1671053522013",
@@ -1159,8 +1102,8 @@
       "email": "hello@gmail.com",
       "password": "hello123",
       "tag": "user",
-      "cart": [],
       "id": 2
     }
-  ]
+  ],
+  "cart": []
 }

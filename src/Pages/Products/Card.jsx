@@ -3,7 +3,9 @@ import { VStack, Box, Text, Flex, Image, Button } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import { MdStarRate } from 'react-icons/md'
 
-const Card = ({ id, name, brand, images, strikeOfPrice, price, ratings: { rating, count } }) => {
+const Card = (props) => {
+
+    const { id, name, brand, images, strikeOfPrice, price, ratings: { rating, count } } = props
 
     let stars = new Array(5);
     for (let i = 0; i < 5; i++) {

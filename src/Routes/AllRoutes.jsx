@@ -9,6 +9,8 @@ import AddData from '../Components/AddData';
 import Products from '../Pages/Products/Products';
 import Cart from '../Pages/Cart/Cart';
 import ProductDetails from '../Pages/SinglePage/ProductDetails';
+import Checkout from '../Pages/Checkout/Checkout';
+import NotFound from '../Pages/NotFound';
 
 const AllRoutes = () => {
   return (
@@ -21,6 +23,8 @@ const AllRoutes = () => {
         <Route path='/products/:gender' element={<Products/>}></Route>
         <Route path='/products/:gender/:id' element={<ProductDetails/>}></Route>
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>}></Route>
+        <Route path='/checkout' element={<PrivateRoute><Checkout/></PrivateRoute>}></Route>
+        <Route path='*' element={<NotFound/>}/>
     </Routes>
   )
 }

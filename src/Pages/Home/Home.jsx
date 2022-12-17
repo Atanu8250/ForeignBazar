@@ -1,31 +1,35 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ShowSignin from './ShowSignin'
 import FirstCarousel from './FirstCarousel'
 import Slider from './Slider'
 import ShortCard from './ShortCard'
 import { Heading, VStack, Link, Text, Center, HStack, Image, Box } from '@chakra-ui/react'
+import { AuthContext } from '../../Context/AuthContext'
 import './Home.css'
 import SecondCarousel from './SecondCarousel'
 
 
 const Home = () => {
 
+  const { authState } = useContext(AuthContext)
+
   return (
     <div className='Home'>
-      <ShowSignin />
+      {!authState.isAuth && <ShowSignin />}
+
       <FirstCarousel />
 
       <Center className='Bonus-note'>
-          <VStack>
-            <Heading>Get a $40 Bonus Note!</Heading>
-            <Text>An exclusive offer for new Nordstrom credit cardmembers. Restrictions apply.</Text>
-            <Link>Apply Now</Link>
-          </VStack>
+        <VStack>
+          <Heading>Get a $40 Bonus Note!</Heading>
+          <Text>An exclusive offer for new Nordstrom credit cardmembers. Restrictions apply.</Text>
+          <Link>Apply Now</Link>
+        </VStack>
       </Center>
 
 
       {/* 1st Slider Container */}
-      <Slider serial={1}/>
+      <Slider serial={1} />
 
       <Center className='Christmas-time'>
         <VStack>
@@ -81,12 +85,12 @@ const Home = () => {
 
       <Box>
         <HStack justifyContent="space-between" w="full">
-          <ShortCard img="https://n.nordstrommedia.com/id/8d5e2126-1fca-42f8-b71b-ce9d1a3cc0ab.jpeg" title="Women"/>
-          <ShortCard img="https://n.nordstrommedia.com/id/fb45282f-b5e1-423b-9894-4a6071e7d3a1.jpeg" title="Men"/>
-          <ShortCard img="https://n.nordstrommedia.com/id/278ded2f-d53f-4c14-a88c-8bc5ba1efe56.jpeg" title="Kids"/>
-          <ShortCard img="https://n.nordstrommedia.com/id/1ceda26d-5052-4510-811b-82d30dbd5a23.jpeg" title="Home"/>
-          <ShortCard img="https://n.nordstrommedia.com/id/a29eca50-eeb5-4d37-a2bf-2932c60746a3.jpeg" title="Beauty & Fragrance"/>
-          <ShortCard img="https://n.nordstrommedia.com/id/48027591-850a-4544-814e-b458e00d6a51.jpeg" title="Designer"/>
+          <ShortCard img="https://n.nordstrommedia.com/id/8d5e2126-1fca-42f8-b71b-ce9d1a3cc0ab.jpeg" title="Women" />
+          <ShortCard img="https://n.nordstrommedia.com/id/fb45282f-b5e1-423b-9894-4a6071e7d3a1.jpeg" title="Men" />
+          <ShortCard img="https://n.nordstrommedia.com/id/278ded2f-d53f-4c14-a88c-8bc5ba1efe56.jpeg" title="Kids" />
+          <ShortCard img="https://n.nordstrommedia.com/id/1ceda26d-5052-4510-811b-82d30dbd5a23.jpeg" title="Home" />
+          <ShortCard img="https://n.nordstrommedia.com/id/a29eca50-eeb5-4d37-a2bf-2932c60746a3.jpeg" title="Beauty & Fragrance" />
+          <ShortCard img="https://n.nordstrommedia.com/id/48027591-850a-4544-814e-b458e00d6a51.jpeg" title="Designer" />
         </HStack>
       </Box>
 
@@ -106,7 +110,7 @@ const Home = () => {
         <Heading fontSize="2xl">Here's What Caught Your Eye</Heading>
       </Box>
       {/* Second Slider container */}
-      <Slider serial={2}/>
+      <Slider serial={2} />
 
     </div>
   )
