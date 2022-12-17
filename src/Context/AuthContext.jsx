@@ -8,22 +8,18 @@ const AuthContextProvider = ({children})=>{
     const ui = localStorage.getItem('logged-in user-id');
 
     const [token, setToken] = useState(ui || "")
-    const [user, setUser] = useState({})
     const [isAuth, setIsAuth] = useState(ui ? true : false);
+    const [updateCart, setUpdateCart] = useState(0);
 
-    const authState = {token, isAuth}
+    const authState = {token, isAuth, updateCart}
 
     useEffect(()=>{
-        axios.get(`${import.meta.env.VITE_BASE_URL}/users`)
+        axios.get(`${import.meta.env.VITE_BASE_URL}/cart?userId=${token}`)
         .then(res => {
-            res.data.forEach((el)=>{
-                if(el.userId == token){
-                    setUser(el);
-                }
-            })
+            setUpdateCart(res.data.length)
         })
         .catch(err => console.log(err));
-    }, [isAuth])
+    }, [])
 
 
     const login = (val)=>{
@@ -38,7 +34,7 @@ const AuthContextProvider = ({children})=>{
         localStorage.removeItem('logged-in user-id');
     }
 
-    return <AuthContext.Provider value={{authState, user, login, logout}}>{children}</AuthContext.Provider>
+    return <AuthContext.Provider value={{authState, setUpdateCart, login, logout}}>{children}</AuthContext.Provider>
 }
 
 export default AuthContextProvider;

@@ -74,8 +74,7 @@ const Signin = () => {
             name: fnameRef.current.value + " " + lnameRef.current.value,
             email: emailFromLS,
             password: pwdRef.current.value,
-            tag: "user",
-            cart: []
+            tag: "user"
         }
 
         axios({

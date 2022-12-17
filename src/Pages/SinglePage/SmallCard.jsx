@@ -3,6 +3,7 @@ import { VStack, HStack, Text, Box, Center, Modal, ModalOverlay, ModalContent, M
 import { MdStarRate } from 'react-icons/md'
 import { BsBagPlusFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import "./SmallCard.css"
 
 const SmallCard = ({ id, name, description, brand, size, images: [imageOne, imageTwo], price, strikeOfPrice, ratings: { rating, count } }) => {
 

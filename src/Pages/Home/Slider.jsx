@@ -9,7 +9,7 @@ const Slider = ({serial}) => {
     const [data, setData] = React.useState([]);
 
     React.useEffect(()=>{
-        axios.get(`${import.meta.env.VITE_BASE_URL}/${serial === 1 ? 'products' : 'male'}`)
+        axios.get(`/${serial === 1 ? 'products' : 'male'}`)
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
