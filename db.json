@@ -1115,48 +1115,6 @@
   ],
   "cart": [
     {
-      "name": "Ghost 15 Running Shoe",
-      "description": "The Ghost lineup remains a favorite of so many runners as each iteration of the shoe is light and cushioned enough for running almost any pace and distance.",
-      "brand": "BROOKS",
-      "type": "shoe",
-      "gender": "Male",
-      "size": 10,
-      "images": [
-        "https://n.nordstrommedia.com/id/sr3/a99a6ab4-cd11-41dc-82f8-0312c864c335.jpeg",
-        "https://n.nordstrommedia.com/id/sr3/f1d82219-5d6d-4874-84b0-e71bc35d0cb4.jpeg"
-      ],
-      "strikeOfPrice": 15352.24,
-      "price": 12302.91,
-      "ratings": {
-        "rating": 4,
-        "count": 129
-      },
-      "id": 1671395034739,
-      "userId": "Karan_1671394876355",
-      "quantity": 1
-    },
-    {
-      "name": "Stark Crossbody Coated Canvas Mini Backpack",
-      "description": "MCM's signature Stark silhouette gets a modern upgrade as a mini crossbody backpack with a removable, adjustable strap.",
-      "brand": "MCM",
-      "type": "bag",
-      "gender": "Female",
-      "size": 5,
-      "images": [
-        "https://n.nordstrommedia.com/id/sr3/8ef8b2fa-a6fb-4ebe-b712-e9dd2b82ede7.jpeg",
-        "https://n.nordstrommedia.com/id/sr3/79d43994-337c-4661-ad92-ebf69748b0f1.jpeg"
-      ],
-      "strikeOfPrice": 90000,
-      "price": 85136,
-      "ratings": {
-        "rating": 4,
-        "count": 122
-      },
-      "id": 1671395040730,
-      "userId": "Karan_1671394876355",
-      "quantity": 1
-    },
-    {
       "name": "Sportswear Tech Fleece Zip Hoodie",
       "description": "Lightweight, insulating Tech Fleece brings warmth without bulk to a hoodie that sports a higher neck for added coverage and a fit that's easy to layer.",
       "brand": "NIKE",
@@ -1220,6 +1178,27 @@
       "id": 1671394888235,
       "userId": "Karan_1671394876355",
       "quantity": 2
+    },
+    {
+      "name": "Tech Fleece Jogger Sweatpants",
+      "description": "Nike Tech Fleece spacer knit retains heat without added bulk in jogger-style sweatpants that are relaxed through the thigh and taper below the knee.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": "10",
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/37c55c1c-eef8-4807-85f5-45154c06a338.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/78454076-1b38-403d-a82f-819c4543ce40.jpeg"
+      ],
+      "strikeOfPrice": 10234,
+      "price": 9666.57,
+      "ratings": {
+        "rating": 3,
+        "count": 147
+      },
+      "id": 1671397791449,
+      "userId": "Karan_1671394876355",
+      "quantity": 4
     }
   ]
 }

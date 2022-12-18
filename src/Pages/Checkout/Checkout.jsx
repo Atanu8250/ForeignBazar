@@ -1,4 +1,4 @@
-import { Box, Heading, Text, HStack, useToast, Image, Modal, ModalOverlay, ModalHeader, ModalContent, ModalCloseButton, ModalBody, PinInput, PinInputField, ModalFooter, Center } from '@chakra-ui/react'
+import { Box, Heading, Text, HStack, useToast, Image, Modal, ModalOverlay, ModalHeader, ModalContent, ModalBody, ModalFooter } from '@chakra-ui/react'
 import { CiLock } from 'react-icons/ci'
 import React, { useContext } from 'react'
 import './Checkout.css'
