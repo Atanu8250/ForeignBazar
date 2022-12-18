@@ -11,16 +11,35 @@ import { BsCaretLeft, BsCaretRight } from "react-icons/bs"
 
 const getCurrentPageUrl = (value) => {
     value = Number(value);
-    if (typeof value === "number" && value <= 0) {
-        value = 1;
-    }
-
-    if (!value) {
+    if ((typeof value === "number" && value <= 0) || (!value)) {
         value = 1;
     }
 
     return value;
 };
+
+const getCurrentLimitUrl = (value) => {
+    value = Number(value);
+    if ((typeof value === "number" && value <= 0) || (!value)) {
+        value = 8;
+    }
+
+    return value;
+};
+
+const getOrderbyUrl = (value) => {
+    if ((typeof value === "string" && (value != "asc" || value != "desc")) || (!value) || (typeof value === 'number') || (typeof value === 'boolean')) {
+        value = 'desc';
+    }
+    return value;
+}
+
+const getSortbyUrl = (value) => {
+    if ((typeof value === "string" && (value != "price" || value != "rating")) || (!value) || (typeof value === 'number') || (typeof value === 'boolean')) {
+        value = 'price';
+    }
+    return value;
+}
 
 function getUrl(url, sort, orderBy, filterBy) {
     if (sort && orderBy && filterBy) {
@@ -32,7 +51,7 @@ function getUrl(url, sort, orderBy, filterBy) {
     }
 
     else if (filterBy) {
-        url = `${url}&category=${filterBy}`;
+        url = `${url}${filterBy}`;
     }
 
     return url;
@@ -46,12 +65,10 @@ const Products = () => {
     const [data, setData] = React.useState([]);
     const [laoding, setLoading] = React.useState(false);
     const [totalCount, setTotalCount] = React.useState(0);
-    const [page, setPage] = React.useState(
-        getCurrentPageUrl(searchParams.get('page')) || 1
-    );
-    const [orderBy, setOrderBy] = React.useState("");
-    const [limit, setLimit] = React.useState(8)
-    const [sort, setSort] = React.useState("")
+    const [page, setPage] = React.useState(getCurrentPageUrl(searchParams.get('page')) || 1);
+    const [orderBy, setOrderBy] = React.useState(getOrderbyUrl(searchParams.get('orderBy')) || "");
+    const [limit, setLimit] = React.useState(getCurrentLimitUrl(searchParams.get('limit')) || 8);
+    const [sort, setSort] = React.useState(getSortbyUrl(searchParams.get('sortBy')) || "")
     const [filterBy, setFilterBy] = React.useState("");
     const [filterChange, setFilterChange] = React.useState({});
 
@@ -92,14 +109,14 @@ const Products = () => {
         if (orderBy) {
             paramsObj.orderBy = orderBy;
         }
-        if (filterBy) {
-            paramsObj["filterBy"] = filterBy;
-        }
         if (sort) {
             paramsObj.sortBy = sort;
         }
         if (limit) {
             paramsObj.limit = limit;
+        }
+        if (filterBy) {
+            paramsObj["filterBy"] = filterBy;
         }
 
         setSearchParams(paramsObj);
@@ -162,6 +179,8 @@ const Products = () => {
                     filterStr += `&type=${key}`
                 } else if (key == 4 || key == 5 || key == 6 || key == 7 || key == 8 || key == 9 || key == 10) {
                     filterStr += `&size=${key}`
+                } else if (key == '1000-1999' || key == '2000-2999' || key == '3000-4499' || key == '4500-10000') {
+                    filterStr += `price_gte=${key.split("-")[0]}&price_lte=${key.split("-")[1]}`
                 }
 
             }
@@ -224,6 +243,42 @@ const Products = () => {
 
                                             <Checkbox size='lg' colorScheme='gray' name='candle' onChange={handleFilterChange}>
                                                 Candle
+                                            </Checkbox>
+                                        </AccordionPanel>
+                                    </>
+                                )}
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                {({ isExpanded }) => (
+                                    <>
+                                        <h2>
+                                            <AccordionButton>
+                                                <Box as="span" flex='1' textAlign='left'>
+                                                    Price
+                                                </Box>
+                                                {isExpanded ? (
+                                                    <MinusIcon fontSize='12px' />
+                                                ) : (
+                                                    <AddIcon fontSize='12px' />
+                                                )}
+                                            </AccordionButton>
+                                        </h2>
+                                        <AccordionPanel pb={4}>
+                                            <Checkbox size='lg' colorScheme='gray' name='1000-1999' onChange={handleFilterChange}>
+                                                ₹ 1000 - 1999
+                                            </Checkbox>
+
+                                            <Checkbox size='lg' colorScheme='gray' name='2000-2999' onChange={handleFilterChange}>
+                                                ₹ 2000 - 2999
+                                            </Checkbox>
+
+                                            <Checkbox size='lg' colorScheme='gray' name='3000-4499' onChange={handleFilterChange}>
+                                                ₹ 3000 - 4499
+                                            </Checkbox>
+
+                                            <Checkbox size='lg' colorScheme='gray' name='4500-10000' onChange={handleFilterChange}>
+                                                ₹ 4500 - 10000
                                             </Checkbox>
                                         </AccordionPanel>
                                     </>
@@ -460,42 +515,6 @@ const Products = () => {
 
                                             <Checkbox size='lg' colorScheme='gray'>
                                                 Checkbox
-                                            </Checkbox>
-                                        </AccordionPanel>
-                                    </>
-                                )}
-                            </AccordionItem>
-
-                            <AccordionItem>
-                                {({ isExpanded }) => (
-                                    <>
-                                        <h2>
-                                            <AccordionButton>
-                                                <Box as="span" flex='1' textAlign='left'>
-                                                    Price
-                                                </Box>
-                                                {isExpanded ? (
-                                                    <MinusIcon fontSize='12px' />
-                                                ) : (
-                                                    <AddIcon fontSize='12px' />
-                                                )}
-                                            </AccordionButton>
-                                        </h2>
-                                        <AccordionPanel pb={4}>
-                                            <Checkbox size='lg' colorScheme='gray' name='₹ 500 - 999'>
-                                                ₹ 500 - 999
-                                            </Checkbox>
-
-                                            <Checkbox size='lg' colorScheme='gray' name='₹ 1000 - 1499'>
-                                                ₹ 1000 - 1499
-                                            </Checkbox>
-
-                                            <Checkbox size='lg' colorScheme='gray' name='₹ 1500 - 1999'>
-                                                ₹ 1500 - 1999
-                                            </Checkbox>
-
-                                            <Checkbox size='lg' colorScheme='gray' name='₹ 2000 - 2500'>
-                                                ₹ 2000 - 2500
                                             </Checkbox>
                                         </AccordionPanel>
                                     </>
