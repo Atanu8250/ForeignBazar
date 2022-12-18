@@ -19,7 +19,7 @@ const AuthContextProvider = ({children})=>{
             setUpdateCart(res.data.length)
         })
         .catch(err => console.log(err));
-    }, [])
+    }, [isAuth])
 
 
     const login = (val)=>{
@@ -31,6 +31,7 @@ const AuthContextProvider = ({children})=>{
     const logout = ()=>{
         setToken("");
         setIsAuth(false);
+        setUpdateCart(0);
         localStorage.removeItem('logged-in user-id');
     }
 

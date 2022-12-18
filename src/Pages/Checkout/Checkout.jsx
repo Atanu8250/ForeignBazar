@@ -1,76 +1,185 @@
-import { Box, Heading, Text, FormControl, FormLabel, Input, Flex } from '@chakra-ui/react'
+import { Box, Heading, Text, HStack, useToast, Image, Modal, ModalOverlay, ModalHeader, ModalContent, ModalCloseButton, ModalBody, PinInput, PinInputField, ModalFooter, Center } from '@chakra-ui/react'
 import { CiLock } from 'react-icons/ci'
-import React from 'react'
+import React, { useContext } from 'react'
 import './Checkout.css'
+import Delivery from './Delivery'
+import Payment from './Payment'
+import axios from 'axios'
+import { AuthContext } from '../../Context/AuthContext'
+import Loader from '../SinglePage/Loader'
+import { useNavigate } from 'react-router-dom'
+import successSound from "./success.mp3"
+
+const reducer = (state, action) => {
+    switch (action.type) {
+
+        case 'totalPrice': {
+            return { ...state, totalPrice: +(action.payload) }
+        }
+
+        case 'fName': {
+            return { ...state, fName: action.payload }
+        }
+
+        case 'lName': {
+            return { ...state, lName: action.payload }
+        }
+
+        case 'Adrs1': {
+            return { ...state, Adrs1: action.payload }
+        }
+
+        case 'Adrs2': {
+            return { ...state, Adrs2: action.payload }
+        }
+
+        case 'pin': {
+            return { ...state, pin: action.payload }
+        }
+
+        case 'city': {
+            return { ...state, city: action.payload }
+        }
+
+        case 'region': {
+            return { ...state, region: action.payload }
+        }
+            break;
+
+        case 'phone': {
+            return { ...state, phone: action.payload }
+        }
+
+        case 'location': {
+            return { ...state, location: action.payload }
+        }
+
+        case 'cardNo': {
+            return { ...state, cardNo: action.payload }
+        }
+
+        case 'expiaryDate': {
+            return { ...state, expiaryDate: action.payload }
+        }
+
+        case 'securityCode': {
+            return { ...state, securityCode: action.payload }
+        }
+
+        default: return state;
+    }
+}
+
+const play = ()=> {
+    new Audio(successSound).play();
+}
 
 const Checkout = () => {
-    return (
+
+
+    const { authState, setUpdateCart } = useContext(AuthContext)
+    const toast = useToast()
+    const navigate = useNavigate()
+    const [state, dispatch] = React.useReducer(reducer, { totalPrice: 0, fName: "", lName: "", Adrs1: "", Adrs2: "", pin: "", city: "", region: "", phone: "", location: "India", cardNo: "", expiaryDate: "", securityCode: "" })
+    const [toggle, setToogle] = React.useState(false);
+    const [loader, setLoader] = React.useState(false);
+    const [paymentModal, setPaymentModal] = React.useState(false);
+    const [cartItems, setCartItems] = React.useState(0)
+    const intervalId = React.useRef();
+    const paymentModalRef = React.useRef();
+
+    React.useEffect(() => {
+        setLoader(true)
+        axios.get(`/cart?userId=${authState.token}`)
+            .then(res => {
+                setCartItems(res.data)
+                dispatch({
+                    type: "totalPrice",
+                    payload: res.data.reduce((start, el) => { return start + (el.price * el.quantity) }, 0)
+                })
+            })
+            .catch(err => console.log(err))
+            .finally(() => setLoader(false))
+    }, [])
+
+
+    const handleCheckout = () => {
+        setLoader(true)
+        let count = 0;
+        intervalId.current = setInterval(() => {
+            // Pushing Item in orders
+            axios.post(`/orders`, { ...cartItems[count] })
+                .then(res => {
+                    console.log('res from pushIteminOrder', res)
+                    axios.delete(`/cart/${cartItems[count].id}`)
+                        .then(res => console.log('from deleting the item in cart', res))
+                        .catch(err => console.log(err))
+                })
+                .catch(err => console.log('error from pushIteminOrder', err))
+                .finally(() => {
+                    count++;
+                    if (count >= cartItems.length) {
+                        clearInterval(intervalId.current)
+                        setUpdateCart(0)
+                        setLoader(false)
+                        setPaymentModal(true)
+                        play();
+                        setTimeout(() => {
+                            navigate("/")
+                        }, 2000)
+                    }
+                })
+        }, 600)
+    }
+
+
+    const toastFunc = (s, t, d) => toast({
+        position: 'top-right',
+        title: t,
+        description: d,
+        status: s,
+        duration: 5000,
+        isClosable: true,
+    })
+
+    return loader ? <Loader /> : (
         <Box className='Checkout'>
             <Box>
-                <Flex>
+                <HStack>
                     <CiLock />
                     <Heading>Secure Checkout</Heading>
                     <Text>powered by Borederfree</Text>
-                </Flex>
+                </HStack>
                 <Text>Already have a Borderfree account?</Text>
             </Box>
 
-            <Box>
-                <Flex>
+            <Box className='HeadingLine'>
+                <HStack>
                     <Text>1</Text>
                     <Heading>Delivery</Heading>
-                </Flex>
+                </HStack>
             </Box>
 
-            <Box className='form'>
-                <Flex>
-                    <FormControl isRequired>
-                        <FormLabel>First name</FormLabel>
-                        <Input variant="none" placeholder='First name' />
-                    </FormControl>
-
-
-                    <FormControl isRequired>
-                        <FormLabel>Last name</FormLabel>
-                        <Input variant="none" placeholder='Last name' />
-                    </FormControl>
-                </Flex>
-                <FormControl isRequired>
-                    <FormLabel>Address 1</FormLabel>
-                    <Input variant="none" placeholder='Address' />
-                </FormControl>
-                <Box display='grid' gridTemplateColumns="repeat(2, 1fr)">
-                    <FormControl>
-                        <FormLabel>Address 2</FormLabel>
-                        <Input variant="none" placeholder='Address 2 (Optional)' />
-                    </FormControl>
-
-                    <FormControl isRequired>
-                        <FormLabel>Postal Code</FormLabel>
-                        <Input variant="none" placeholder='Postal Code' />
-                    </FormControl>
-
-                    <FormControl isRequired>
-                        <FormLabel>City</FormLabel>
-                        <Input variant="none" placeholder='city' />
-                    </FormControl>
-
-                    <FormControl>
-                        <FormLabel>Region</FormLabel>
-                        <Input variant="none" placeholder='Region (Optional)' />
-                    </FormControl>
-
-                    <FormControl isRequired>
-                        <FormLabel>Phone</FormLabel>
-                        <Input variant="none" placeholder='Phone' />
-                    </FormControl>
-
-                    <FormControl isRequired>
-                        <FormLabel>Location</FormLabel>
-                        <Input variant="none" placeholder='Location' />
-                    </FormControl>
-                </Box>
+            <Box overflow="hidden">
+                {toggle ? <Payment state={state} dispatch={dispatch} toastFunc={toastFunc} setToogle={setToogle} handleCheckout={handleCheckout} /> : <Delivery toastFunc={toastFunc} dispatch={dispatch} state={state} click={setToogle} />}
             </Box>
+
+
+
+
+            <Modal finalFocusRef={paymentModalRef} isOpen={paymentModal} onClose={() => setPaymentModal(false)}>
+                <ModalOverlay />
+                <ModalContent>
+                    <ModalBody>
+                        <Image src="https://cdn.dribbble.com/users/2185205/screenshots/7886140/02-lottie-tick-01-instant-2.gif" />
+                    </ModalBody>
+
+                    <ModalFooter>
+                        <Heading mx="auto" color="green.400">Payment Successful</Heading>
+                    </ModalFooter>
+                </ModalContent>
+            </Modal>
+
         </Box>
     )
 }

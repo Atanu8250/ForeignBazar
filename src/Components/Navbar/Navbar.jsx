@@ -92,7 +92,7 @@ const Navbar = () => {
                     </HStack>
 
                     <HStack>
-                        {userName ? <Link>Hi, {userName}</Link> : <Link to="/signin">
+                        {userName ? <Link to="/user">Hi, {userName}</Link> : <Link to="/signin">
                             <VscSignIn />
                             <span>Sign In</span>
                         </Link>}

@@ -11,6 +11,7 @@ import Cart from '../Pages/Cart/Cart';
 import ProductDetails from '../Pages/SinglePage/ProductDetails';
 import Checkout from '../Pages/Checkout/Checkout';
 import NotFound from '../Pages/NotFound';
+import UserProfile from '../Pages/UserProfile/UserProfile';
 
 const AllRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const AllRoutes = () => {
         <Route path='/signin_new' element={<Signin/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/admin' element={<AddData/>}></Route>
+        <Route path='/user' element={<PrivateRoute><UserProfile/></PrivateRoute>}></Route>
         <Route path='/products/:gender' element={<Products/>}></Route>
         <Route path='/products/:gender/:id' element={<ProductDetails/>}></Route>
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>}></Route>

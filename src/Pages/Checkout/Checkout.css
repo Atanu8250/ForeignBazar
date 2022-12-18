@@ -1,6 +1,136 @@
 .Checkout{
-    border: 2px solid red;
-    margin: 30px auto;
-    max-width: 80vw;
+    margin: 100px auto;
+    max-width: 60vw;
 }
 
+.Checkout>div:first-child{
+    margin: 15px 0px 35px;
+}
+
+.Checkout>div:first-child>div:nth-child(1){
+    align-items: flex-end !important;
+}
+
+.Checkout>div:first-child>div:nth-child(1)>svg{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.Checkout>div:first-child>div:nth-child(1)>h2{
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.Checkout>div:first-child>p{
+    color: gray;
+}
+
+.HeadingLine>div{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px 15px;
+    margin: 10px 0px;
+}
+
+.HeadingLine>div>p{
+    height: 30px;
+    width: 30px;
+    border: 2px solid ;
+    display: flex;
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.HeadingLine>div>h2{
+    font-size: 25px;
+}
+
+.chakra-form-control{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-left: none;
+    padding: 5px;
+}
+
+.btn{
+    margin: 20px 0px;
+    width: 100%;
+    background-color: black !important;
+    color: white;
+}
+
+
+.show-address>div{
+    margin-top: 10px;
+}
+
+.show-address>div>h2{
+    font-weight: lighter;
+    font-size: 20px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.cards{
+    margin: 20px 0px;
+}
+
+.cards>div:first-child{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.cards>div:nth-child(2){
+    width: 60px;
+}
+
+.payment{
+    max-width: 500px;
+}
+
+.payment>div:last-child{
+    margin: 20px 0px;
+}
+
+.payment+button{
+    width: 500px;
+    background-color: black !important;
+    color: white;
+}
+
+
+.Delivery{
+    animation-name: cameDown;
+    animation-duration: 400ms;
+    animation-fill-mode: ease-in;
+}
+
+.Payment{
+    animation-name: cameUp;
+    animation-duration: 400ms;
+    animation-fill-mode: ease-in;
+}
+
+@keyframes cameUp {
+    from{
+        transform: translateY(150%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes cameDown {
+    from {
+        transform: translateY(-150%)
+    }
+
+    to {
+        transform: translateY(0%)
+    } 
+}

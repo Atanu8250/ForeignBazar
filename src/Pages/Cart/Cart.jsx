@@ -8,10 +8,12 @@ import './Cart.css'
 import Item from './Item'
 import SmallCard from '../SinglePage/SmallCard'
 import NoProduct from './NoProduct'
+import { useNavigate } from 'react-router-dom'
 
 
 const Cart = () => {
 
+  const navigate = useNavigate()
   const { authState } = useContext(AuthContext);
   const [pageLoading, setPageLoading] = React.useState(false);
   const [smallCardData, setSmallCardData] = React.useState([]);
@@ -90,7 +92,7 @@ const Cart = () => {
               <Box><Image src="https://i.pinimg.com/originals/86/f4/d6/86f4d647b439f5f07e04f6ec15790cd7.png" alt='airtel-payment bank' />
               </Box>
               <Box>
-                <Image src="https://www.freepnglogos.com/uploads/mastercard-png/mastercard-logo-mastercard-logo-png-vector-download-19.png" />
+                <Image src="https://www.freepnglogos.com/uploads/mastercard-png/mastercard-logo-mastercard-logo-png-vector-download-19.png" alt='mastercard' />
               </Box>
             </Flex>
             <Text>Need help? Call 1.888.282.6060 or chat with US</Text>
@@ -102,7 +104,7 @@ const Cart = () => {
               <Text>₹{totalPrice}</Text>
             </HStack>
             <Divider />
-            <Button borderRadius="none"> Check Out </Button>
+            <Button borderRadius="none" disabled={!authState.updateCart} onClick={()=> navigate("/checkout")}> Check Out </Button>
           </Box>
         </Flex>
       </Box>
