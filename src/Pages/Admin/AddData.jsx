@@ -10,6 +10,7 @@ import {
     Heading,
     Text,
     useColorModeValue,
+    Select,
 } from '@chakra-ui/react';
 
 import { useRef } from 'react';
@@ -27,15 +28,18 @@ export default function AddData() {
     const StrikeOfPriceRef = useRef()
     const RatingRef = useRef()
     const CountRef = useRef()
+    const categoryRef = useRef()
 
     const handleSubmit = (e)=>{
+
+        if(NameRef.current.value == "" || DescriptionRef.current.value == "" ||  BrandRef.current.value == "" || TypeRef.current.value == "" || SizeRef.current.value == "" || ImageOneRef.current.value == "" || ImageTwoRef.current.value== "" || StrikeOfPriceRef.current.value == "" || PriceRef.current.value == "" || RatingRef.current.value == "" || CountRef.current.value == "" || categoryRef.current.value == "") return;
 
         let obj = {
             name: NameRef.current.value,
             description: DescriptionRef.current.value,
             brand: BrandRef.current.value,
             type: TypeRef.current.value,
-            gender: "Male",
+            gender: categoryRef.current.value,
             size: +(SizeRef.current.value),
             images: [ImageOneRef.current.value, ImageTwoRef.current.value],
             strikeOfPrice: +(StrikeOfPriceRef.current.value),
@@ -68,10 +72,7 @@ export default function AddData() {
             bg={useColorModeValue('gray.50', 'gray.800')}>
             <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
                 <Stack align={'center'}>
-                    <Heading fontSize={'4xl'}>Sign in to your account</Heading>
-                    <Text fontSize={'lg'} color={'gray.600'}>
-                        to enjoy all of our cool <Link color={'blue.400'}>features</Link> ✌️
-                    </Text>
+                    <Heading fontSize={'4xl'}>Add Product to Our Database</Heading>
                 </Stack>
                 <Box
                     rounded={'lg'}
@@ -106,6 +107,15 @@ export default function AddData() {
                         </FormControl>
 
                         <FormControl>
+                            <FormLabel>Category</FormLabel>
+                            <Select placeholder='Category'  ref={categoryRef}>
+                                <option value="common">Common</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </Select>
+                        </FormControl>
+
+                        <FormControl>
                             <FormLabel>Image 1</FormLabel>
                             <Input type="text" placeholder='Image 1' ref={ImageOneRef} />
                         </FormControl>
@@ -127,7 +137,13 @@ export default function AddData() {
 
                         <FormControl>
                             <FormLabel>Rating</FormLabel>
-                            <Input type="number" placeholder='Rating' ref={RatingRef} />
+                            <Select placeholder='Rating'  ref={RatingRef}>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </Select>
                         </FormControl>
 
                         <FormControl>

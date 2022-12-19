@@ -4,7 +4,7 @@ import { MdStarRate } from 'react-icons/md'
 import { BsBagPlusFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
-
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 const SliderCardTwo = ({ id, name, description, brand, size, images: [imageOne, imageTwo], price, strikeOfPrice, ratings: { rating, count } }) => {
 
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -29,9 +29,9 @@ const SliderCardTwo = ({ id, name, description, brand, size, images: [imageOne, 
                 <Link to={`/products/male/${id}`}>
                     <Text>{rating === 5 ? "Limited Time sell" : ""}</Text>
                     <Text>{brand}</Text>
-                    <Text>INR {price}</Text>
+                    <Text>INR {dollarIndianLocale.format(price)}</Text>
                     <Text>(Up to {parcentage()}% off select items)</Text>
-                    <Text as='s'>INR {strikeOfPrice}</Text>
+                    <Text as='s'>INR {dollarIndianLocale.format(strikeOfPrice)}</Text>
                     <Flex>
                         {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
                     </Flex>
