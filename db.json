@@ -1199,6 +1199,27 @@
       "id": 1671397791449,
       "userId": "Karan_1671394876355",
       "quantity": 4
+    },
+    {
+      "name": "Men's Club Crewneck Sweatshirt",
+      "description": "This crewneck sweatshirt cut from lightweight fleece is one you'll want in every color.",
+      "brand": "NIKE",
+      "type": "cloth",
+      "gender": "Male",
+      "size": "12",
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/e609eb77-4e30-4f19-bc97-e4e560f553f9.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/2e28ce8f-0dd4-4ffc-a418-ad43253ba8bb.jpeg"
+      ],
+      "strikeOfPrice": 2046.98,
+      "price": 1346.56,
+      "ratings": {
+        "rating": 4,
+        "count": 107
+      },
+      "id": 1671401705982,
+      "userId": "Karan_1671394876355",
+      "quantity": 2
     }
   ]
 }

@@ -1,14 +1,14 @@
 import { Box, Heading, Text, HStack, useToast, Image, Modal, ModalOverlay, ModalHeader, ModalContent, ModalBody, ModalFooter } from '@chakra-ui/react'
-import { CiLock } from 'react-icons/ci'
+import { AuthContext } from '../../Context/AuthContext'
+import { useNavigate } from 'react-router-dom'
+import Loader from '../SinglePage/Loader'
 import React, { useContext } from 'react'
-import './Checkout.css'
+import successSound from "./success.mp3"
+import { CiLock } from 'react-icons/ci'
 import Delivery from './Delivery'
 import Payment from './Payment'
 import axios from 'axios'
-import { AuthContext } from '../../Context/AuthContext'
-import Loader from '../SinglePage/Loader'
-import { useNavigate } from 'react-router-dom'
-import successSound from "./success.mp3"
+import './Checkout.css'
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -77,16 +77,16 @@ const play = ()=> {
 const Checkout = () => {
 
 
-    const { authState, setUpdateCart } = useContext(AuthContext)
-    const toast = useToast()
-    const navigate = useNavigate()
     const [state, dispatch] = React.useReducer(reducer, { totalPrice: 0, fName: "", lName: "", Adrs1: "", Adrs2: "", pin: "", city: "", region: "", phone: "", location: "India", cardNo: "", expiaryDate: "", securityCode: "" })
-    const [toggle, setToogle] = React.useState(false);
-    const [loader, setLoader] = React.useState(false);
+    const { authState, setUpdateCart } = useContext(AuthContext)
     const [paymentModal, setPaymentModal] = React.useState(false);
     const [cartItems, setCartItems] = React.useState(0)
-    const intervalId = React.useRef();
+    const [toggle, setToogle] = React.useState(false);
+    const [loader, setLoader] = React.useState(false);
     const paymentModalRef = React.useRef();
+    const intervalId = React.useRef();
+    const navigate = useNavigate()
+    const toast = useToast()
 
     React.useEffect(() => {
         setLoader(true)
