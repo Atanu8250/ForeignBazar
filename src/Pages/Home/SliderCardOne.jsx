@@ -3,7 +3,7 @@ import { VStack, Flex, Image, Text } from '@chakra-ui/react'
 import { MdStarRate } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
-
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 const SliderCardOne = ({id, brand, images: [imageOne], price, ratings: { rating, count } }) => {
 
   const stars = new Array(rating).fill(1)
@@ -18,7 +18,7 @@ const SliderCardOne = ({id, brand, images: [imageOne], price, ratings: { rating,
 
         <Text>Arrives before Christmas</Text>
         <Text>{brand}</Text>
-        <Text>INR {price}</Text>
+        <Text>INR {dollarIndianLocale.format(price)}</Text>
         <Flex>
           {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({count})</Text>
         </Flex>

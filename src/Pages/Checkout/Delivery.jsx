@@ -22,33 +22,33 @@ const Delivery = ({click, dispatch, state, toastFunc}) => {
         <Box className='Delivery'>
             <Box className='form'>
                 <Flex>
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>First name</FormLabel>
                         <Input variant="none" placeholder='First name' name='fName' value={state.fName} onChange={handleOnChange} />
                     </FormControl>
 
 
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>Last name</FormLabel>
                         <Input variant="none" placeholder='Last name' value={state.lName} onChange={handleOnChange} name='lName' />
                     </FormControl>
                 </Flex>
-                <FormControl isRequired>
+                <FormControl isRequired className='my-form-control'>
                     <FormLabel>Address 1</FormLabel>
                     <Input variant="none" placeholder='Address' value={state.Adrs1} onChange={handleOnChange} name='Adrs1' />
                 </FormControl>
                 <Box display='grid' gridTemplateColumns="repeat(2, 1fr)">
-                    <FormControl>
+                    <FormControl className='my-form-control'>
                         <FormLabel>Address 2</FormLabel>
                         <Input variant="none" placeholder='Address 2 (Optional)' value={state.Adrs2} onChange={handleOnChange} name='Adrs2' />
                     </FormControl>
 
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>Postal Code</FormLabel>
                         <Input variant="none" placeholder='Postal Code' value={state.pin} onChange={handleOnChange} name='pin' />
                     </FormControl>
 
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>City</FormLabel>
                         <Input variant="none" placeholder='city' value={state.city} onChange={handleOnChange} name='city' />
                     </FormControl>
@@ -58,12 +58,12 @@ const Delivery = ({click, dispatch, state, toastFunc}) => {
                         <Input variant="none" placeholder='Region (Optional)' value={state.region} onChange={handleOnChange} name='region' />
                     </FormControl>
 
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>Phone</FormLabel>
                         <Input variant="none" placeholder='Phone' value={state.phone} onChange={handleOnChange} name='phone' />
                     </FormControl>
 
-                    <FormControl isRequired>
+                    <FormControl isRequired className='my-form-control'>
                         <FormLabel>Location</FormLabel>
                         <Input variant="none" placeholder='Location' value={state.location} onChange={handleOnChange} name='location' />
                     </FormControl>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-panel>div:first-child{
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-panel>div:first-child>h2{
+    cursor: pointer;
+}
+
+.admin-panel>div:first-child>p{
+    font-family: 'La Belle Aurore', cursive;
+    color: rgb(214, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Tab Names */
+.admin-panel>div:nth-child(2)>div:first-child>button>a{
+    font-weight: bold;
+}
+
+
+
+/* Dashboard */
+
+.Dashboard>div:first-child{
+    margin: 20px;
+    gap: 30px;
+}
+
+.sm-card{
+    max-width: 250px;
+    border-radius: 8px;
+    background: linear-gradient(to right top, #f12711, #f5af19);
+    flex-direction: column;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.sm-card>h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.sm-card>p{
+    color: rgb(32, 32, 32);
+}
+
+
+.Dashboard>div:nth-child(2),
+.Dashboard>div:nth-child(3),
+.Dashboard>div:nth-child(4){
+    margin: 50px 0px;
+}
+
+.Dashboard>div:nth-child(4)>table tr td{
+    text-align: left;
+}

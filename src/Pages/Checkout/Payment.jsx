@@ -1,7 +1,7 @@
 import { Box, Button, Checkbox, Flex, Heading, HStack, Text, Input, Image, AlertDialog, AlertDialogOverlay, AlertDialogContent, AlertDialogHeader, AlertDialogBody, AlertDialogFooter, useDisclosure, Modal, ModalOverlay, ModalHeader, ModalContent, ModalCloseButton, ModalBody, PinInput, PinInputField, ModalFooter, Center } from '@chakra-ui/react'
 import React from 'react'
 
-
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 
 const Payment = ({ state: { totalPrice, fName, lName, Adrs1, pin, city, region, phone, location, cardNo, expiaryDate, securityCode }, dispatch, setToogle, handleCheckout }) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -73,7 +73,7 @@ const Payment = ({ state: { totalPrice, fName, lName, Adrs1, pin, city, region, 
                     </HStack>
                 </Box>
 
-                <Button borderRadius="none" className='btn' onClick={placeOrder} disabled={!totalPrice}>Place Order ( ₹{totalPrice} )</Button>
+                <Button borderRadius="none" className='btn' onClick={placeOrder} disabled={!totalPrice}>Place Order ( ₹{dollarIndianLocale.format(totalPrice)} )</Button>
             </Box>
 
 
@@ -98,7 +98,7 @@ const Payment = ({ state: { totalPrice, fName, lName, Adrs1, pin, city, region, 
                                 Cancel
                             </Button>
                             <Button colorScheme='green' onClick={enterOTP} ml={3}>
-                                Pay ₹{totalPrice}
+                                Pay ₹{dollarIndianLocale.format(totalPrice)}
                             </Button>
                         </AlertDialogFooter>
                     </AlertDialogContent>

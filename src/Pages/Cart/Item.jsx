@@ -2,7 +2,7 @@ import { Button, Flex, Divider, Heading, Select, Text, Box, Image } from '@chakr
 import axios from 'axios';
 import React, { useContext } from 'react'
 import { AuthContext } from '../../Context/AuthContext';
-
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 const Item = ({ item, setChangeby, changeby }) => {
     const { id, name, brand, quantity, images, size, price } = item;
     const { authState, setUpdateCart } = useContext(AuthContext)
@@ -39,8 +39,8 @@ const Item = ({ item, setChangeby, changeby }) => {
                     <Text>Size: {size}</Text>
                     <Text>Quantity: {quantity}</Text>
                     <Text>Item: {id}</Text>
-                    <Text>₹{price}</Text>
-                    <Select placeholder="Qty 1" borderRadius="none" onChange={handleQuantityChange}>
+                    <Text>₹{dollarIndianLocale.format(price)}</Text>
+                    <Select placeholder="Qty" borderRadius="none" onChange={handleQuantityChange}>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>

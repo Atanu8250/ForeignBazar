@@ -10,6 +10,7 @@ import './ProductDetails.css'
 import SmallCard from './SmallCard'
 import Loader from './Loader'
 
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 const ProductDetails = () => {
 
     const toast = useToast()
@@ -94,11 +95,11 @@ const ProductDetails = () => {
         <>
             <Breadcrumb m="20px" className='Breadcrumb'>
                 <BreadcrumbItem>
-                    <Link to="/"><BreadcrumbLink>Home</BreadcrumbLink></Link>
+                    <Link to="/">Home</Link>
                 </BreadcrumbItem>
 
                 <BreadcrumbItem>
-                    <Link to={`/products/${gender}`}><BreadcrumbLink>{gender}</BreadcrumbLink></Link>
+                    <Link to={`/products/${gender}`}>{gender}</Link>
                 </BreadcrumbItem>
 
                 <BreadcrumbItem isCurrentPage>
@@ -138,11 +139,11 @@ const ProductDetails = () => {
                     </Flex>
                     <Flex className='right'>
                         <Flex>
-                            {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>(213)</Text>
+                            {stars?.map((e, i) => <MdStarRate key={i} color={e === 0 ? "#c3c3c3" : "black"} />)}<Text>({data?.ratings?.count})</Text>
                         </Flex>
                         <Heading fontSize={['xl', '26px']}>{data.name}</Heading>
                         <Text>{data.brand}</Text>
-                        <Text>INR {data.price}</Text>
+                        <Text>INR {dollarIndianLocale.format(data.price)}</Text>
                         <Text>(Up to {parcentage()}% off select items)</Text>
                         <Text as="s" >INR {data.strikeOfPrice}</Text>
                         <Text>Limited-Time Sale</Text>

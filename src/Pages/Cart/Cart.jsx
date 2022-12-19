@@ -10,7 +10,7 @@ import SmallCard from '../SinglePage/SmallCard'
 import NoProduct from './NoProduct'
 import { useNavigate } from 'react-router-dom'
 
-
+let dollarIndianLocale = Intl.NumberFormat('en-IN');
 const Cart = () => {
 
   const navigate = useNavigate()
@@ -101,7 +101,7 @@ const Cart = () => {
           <Box>
             <HStack>
               <Text>Subtotal</Text>
-              <Text>₹{totalPrice}</Text>
+              <Text>₹{dollarIndianLocale.format(totalPrice)}</Text>
             </HStack>
             <Divider />
             <Button borderRadius="none" disabled={!authState.updateCart} onClick={()=> navigate("/checkout")}> Check Out </Button>
