@@ -1,12 +1,15 @@
-import { Container, Box, Center, Flex, Image, Input, HStack, Divider, Text } from '@chakra-ui/react'
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
+import { Box, Center, Flex, Image, Input, HStack, Divider, VStack, Button, Text } from '@chakra-ui/react'
+import React, { useContext, useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { BsSearch, BsBag } from 'react-icons/bs'
+import {  MdAdminPanelSettings } from 'react-icons/md'
 import { TfiGift } from 'react-icons/tfi'
+import { TbLogout } from 'react-icons/tb'
 import { VscSignIn } from 'react-icons/vsc'
 import HoverPart from './HoverPart'
 import "./Navbar.css"
 import { AuthContext } from '../../Context/AuthContext'
+import axios from 'axios'
 
 
 const HoverAreaData = {
@@ -71,9 +74,24 @@ const HoverAreaData = {
 
 const Navbar = () => {
 
-    const { authState } = useContext(AuthContext)
-    const userName = authState.isAuth ? authState.token.split("_")[0] : "";
+    const [user, setUser] = useState({})
+    const navigate = useNavigate()
+    const { authState, logout, setShowAdminPage } = useContext(AuthContext)
+    const userName = authState.isAuth ? user?.name?.split(" ")[0] : "";
     // console.log('user:', user)
+
+    useEffect(() => {
+        axios.get(`/users`)
+            .then(res => {
+                res.data.map(item => {
+                    if (item.userId == authState.token) {
+                        setUser(item)
+                    }
+                })
+            })
+            .catch(err => console.log(err))
+    }, [authState.isAuth])
+
 
     return (
         <>
@@ -92,10 +110,25 @@ const Navbar = () => {
                     </HStack>
 
                     <HStack>
-                        {userName ? <Link to="/user">Hi, {userName}</Link> : <Link to="/signin">
-                            <VscSignIn />
-                            <span>Sign In</span>
-                        </Link>}
+                        {userName ? <Box className='userbox'>
+                            <Link>Hi, {userName}</Link>
+                            <VStack position="absolute">
+                                {user.tag == "admin" && <Button colorScheme="red" onClick={() => {
+                                    localStorage.setItem('show admin page', true)
+                                    setShowAdminPage(true);
+                                    navigate("/admin/dashboard");
+
+                                }}><HStack><MdAdminPanelSettings /><Text>Admin Panel</Text></HStack></Button>}
+                                <Button colorScheme="red" onClick={() => {
+                                    setUser({})
+                                    logout()
+                                }}><HStack><Text>Log Out</Text> <TbLogout /></HStack></Button>
+                            </VStack>
+                        </Box>
+                            : <Link to="/signin">
+                                <VscSignIn />
+                                <span>Sign In</span>
+                            </Link>}
                         <Link to="/products/male">
                             <svg width="24px" height="24px" focusable="false">
                                 <g fill="none" stroke="#393939" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10">

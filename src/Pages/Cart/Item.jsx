@@ -39,7 +39,7 @@ const Item = ({ item, setChangeby, changeby }) => {
                     <Text>Size: {size}</Text>
                     <Text>Quantity: {quantity}</Text>
                     <Text>Item: {id}</Text>
-                    <Text>₹{dollarIndianLocale.format(price)}</Text>
+                    <Text>₹{dollarIndianLocale.format(price * quantity)}</Text>
                     <Select placeholder="Qty" borderRadius="none" onChange={handleQuantityChange}>
                         <option value="1">1</option>
                         <option value="2">2</option>

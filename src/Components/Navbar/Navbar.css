@@ -144,6 +144,23 @@
 }
 
 
+/* about loggedin user */
+.userbox{
+    position: relative;
+}
+
+.userbox:hover>div:nth-child(2){
+    display: block;
+}
+
+.userbox>div:nth-child(2){
+    position: absolute;
+    display: none;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    padding: 10px;
+    border-radius: 8px;
+}
 
 
 
