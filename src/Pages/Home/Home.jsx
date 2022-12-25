@@ -43,15 +43,15 @@ const Home = () => {
         </VStack>
       </Center>
 
-      <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
+      <Image my={["10px", "20px", "30px", "50px"]} src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
 
-      <Heading my="70px" textAlign='center' fontSize='2xl' letterSpacing="1px" fontFamily="'Josefin Sans', sans-serif">GIFTS BY PRICE</Heading>
+      <Heading my={['10px', '25px', '40px', '70px']} textAlign='center' fontSize={['10px', '18px', '2xl']} letterSpacing="1px" fontFamily="'Josefin Sans', sans-serif">GIFTS BY PRICE</Heading>
 
       <Box>
         <Image src="https://n.nordstrommedia.com/id/a764f8a9-25c5-4e02-a2cf-75953ad9075e.png?h=395&w=1608" />
-        <HStack mt="-20px" justifyContent="space-around" w="full">
+        <HStack mt={["0px", "-20px"]} justifyContent="space-around" w="full">
           <Center w="full">
-            <Heading fontSize={["8px", "18px", "2xl"]}>Stocking Suffers</Heading>
+            <Heading whiteSpace="nowrap" fontSize={["7px", "18px", "2xl"]}>Stocking Suffers</Heading>
           </Center>
           <Center w="full">
             <Heading fontSize={["8px", "18px", "2xl"]}>Under $50</Heading>
@@ -75,13 +75,13 @@ const Home = () => {
         </HStack>
       </Center>
 
-      <Heading my="70px" textAlign='center' fontSize='2xl' letterSpacing="3px" fontFamily="'Josefin Sans', sans-serif">TRENDING NOW</Heading>
+      <Heading my={['10px', '25px', '40px', '70px']} textAlign='center' fontSize={['10px', '18px', '2xl']}  letterSpacing="3px" fontFamily="'Josefin Sans', sans-serif">TRENDING NOW</Heading>
 
       <SecondCarousel />
 
       <Image my="50px" src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png" />
 
-      <Heading my="70px" textAlign='center' fontSize='2xl' color='gray.500' letterSpacing="4px" fontFamily="'Josefin Sans', sans-serif">SHOP BY CATEGORY</Heading>
+      <Heading my={['10px', '25px', '40px', '70px']} textAlign='center' fontSize={['10px', '18px', '2xl']}  color='gray.500' letterSpacing="4px" fontFamily="'Josefin Sans', sans-serif">SHOP BY CATEGORY</Heading>
 
       <Box>
         <HStack justifyContent="space-between" w="full">
@@ -106,7 +106,7 @@ const Home = () => {
         </VStack>
       </Center>
 
-      <Box mt="130px">
+      <Box mt={["10px", "40px", "80px", "130px"]}>
         <Heading fontSize="2xl">Here's What Caught Your Eye</Heading>
       </Box>
       {/* Second Slider container */}

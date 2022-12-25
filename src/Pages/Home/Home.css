@@ -21,8 +21,8 @@
     align-items: flex-start;
 }
 
-.Bonus-note>div>h1{
-    font-size: 15px;
+.Bonus-note>div>h2{
+    font-size: 25px;
 }
 
 .Bonus-note>div>p{
@@ -222,8 +222,8 @@
     align-items: flex-start;
 }
 
-.Christmas-time>div>h1{
-    font-size: 15px;
+.Christmas-time>div>h2{
+    font-size: 25px;
 }
 
 .Christmas-time>div>p{
@@ -315,5 +315,76 @@
     border-bottom: 1px solid gray;
 }
 
+
+
+@media all and (max-width: 768px) {
+    .signinlink{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .signinlink{
+        font-size: 5px;
+    }
+
+    .Bonus-note{
+        background-size: 100% 100%;
+        height: 80px;
+    }
+
+    .Bonus-note>div:first-child>h2{
+        font-size: 8px;
+    }
+    
+    .Bonus-note>div>p{
+        font-size: 5px;
+    }
+
+    .Christmas-time{
+        background-size: 100% 100%;
+        height: 80px;
+    }
+
+    .Christmas-time>div:first-child>h2{
+        font-size: 10px;
+    }
+
+    .Christmas-time>div:first-child>h2+p{
+        font-size: 8px;
+    }
+
+    .Christmas-time>div:first-child>div:nth-child(3)>a{
+        white-space: nowrap;
+        font-size: 5px;
+    }
+
+    .Designer-Clearance{
+        margin: 20px 0px;
+        height: 80px;
+    }
+
+    .Designer-Clearance>div>p{
+        font-size: 10px;
+    }
+
+    .Nordy-Pod{
+        background-size: 100% 100%;
+        height: 80px;
+    }
+
+    .Nordy-Pod>div:first-child>h2{
+        font-size: 10px;
+    }
+
+    .Nordy-Pod>div:first-child>h2+p{
+        font-size: 8px;
+    }
+
+    .Nordy-Pod>div:first-child>div:nth-child(3)>a{
+        white-space: nowrap;
+        font-size: 5px;
+    }
+}
 
 

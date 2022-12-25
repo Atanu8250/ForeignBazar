@@ -90,7 +90,7 @@ export default function SecondCarousel() {
         <Container
             fontFamily="'Josefin Sans', sans-serif"
             position={'relative'}
-            height={'650px'}
+            height={['150px', '250px', '450px', '600px']}
             maxW='9xl'
             overflow={'hidden'}>
             {/* CSS files for react-slick */}
@@ -140,7 +140,7 @@ export default function SecondCarousel() {
                     backgroundSize="100% 100%"
                     backgroundImage={`url(${card.image})`}>
                     {/* This is the block you need to change, to customize the caption */}
-                    <Container size="container.lg" height="600px" position="relative" left="30%">
+                    <Container size="container.lg" height={['150px', '250px', '450px', '600px']} position="relative" left="30%">
                       <Stack
                         textAlign="left"
                         spacing={5}
@@ -150,13 +150,14 @@ export default function SecondCarousel() {
                         top="30%"
                         right="5%"
                         transform="translate(0, -50%)">
-                        <Heading fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
+                        <Heading display={['none', 'block']} fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
                           {card.title}
                         </Heading>
-                        <Text fontSize={{ base: 'md', lg: 'lg' }} color="GrayText" >
+                        <Text display={['none', 'block']} fontSize={{ base: 'md', lg: 'lg' }} color="GrayText" >
                           {card.text}
                         </Text>
-                      <HStack justifyContent="flex-start" textDecoration="underline" >
+                      <HStack 
+                      display={['none', 'block']}justifyContent="flex-start" textDecoration="underline" >
                         {card.link?.map((el, i)=><Link key={i} >{el}</Link>)}
                       </HStack>
                       </Stack>

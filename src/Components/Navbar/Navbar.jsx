@@ -201,21 +201,6 @@ const Navbar = () => {
                         <Link href='#'> Home </Link>
                         <HoverPart data={HoverAreaData['Holiday Gifts']} />
                     </Box>
-
-                    <Box>
-                        <Link href='#'> Beauty </Link>
-                        <HoverPart data={HoverAreaData['Holiday Gifts']} />
-                    </Box>
-
-                    <Box>
-                        <Link href='#'> Designer </Link>
-                        <HoverPart data={HoverAreaData['Holiday Gifts']} />
-                    </Box>
-
-                    <Box>
-                        <Link href='#'> The Thread </Link>
-                        <HoverPart data={HoverAreaData['Holiday Gifts']} />
-                    </Box>
                 </Flex>
             </Box>
         </>
