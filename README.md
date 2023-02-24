@@ -19,6 +19,8 @@ json-server -w db.json -p 3000
 ### It provides the flow of an e-commerce website and an Admin site with Product management and User Management
 
 <!-- <img src="https://user-images.githubusercontent.com/94675329/212765286-55e5183b-598b-4648-96b6-1417b234b1b9.png" /> -->
+<!-- https://user-images.githubusercontent.com/94675329/221279795-f84dea4b-938c-4ae8-98af-59e390352753.png -->
+
 
 ## :small_blue_diamond: Home Page
 <img src="https://user-images.githubusercontent.com/94675329/220149177-5f7e896b-b0e5-4679-bb51-12ccccb85bd4.PNG" />
@@ -28,6 +30,7 @@ json-server -w db.json -p 3000
 
 ## :small_blue_diamond: Products Page
 <img src="https://user-images.githubusercontent.com/94675329/220149784-141203dc-8791-4a1d-a667-44653ba4c658.PNG" />
+
 
 ## :small_blue_diamond: Product Details Page
 <img src="https://user-images.githubusercontent.com/94675329/220149982-1d680286-3303-4c84-8295-d6262e020d91.PNG" />
